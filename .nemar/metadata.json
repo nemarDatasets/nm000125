@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "Lee2021 – SSVEP paradigm of the Mobile BCI dataset",
+  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 23 healthy participants performing a brain-computer interface (BCI) task during various locomotor states (standing, walking, running). The study employed a three-class visual flickering stimulus paradigm at frequencies of 5.45, 8.57, and 12.0 Hz, with 73-channel EEG recordings sampled at 100 Hz across 4 sessions per subject. This mobile BCI dataset enables investigation of SSVEP-based neural decoding under naturalistic movement conditions.",
+  "methods_description": "EEG data were acquired using a BrainAmp system (Brain Product GmbH) with 73 Ag/AgCl electrodes referenced to FCz and grounded at Fpz. Sampling rate was 100 Hz with a 60 Hz line frequency. Impedance was maintained below 50 kOhm. Participants viewed visual flicker stimuli at three frequencies (5.45, 8.57, 12.0 Hz) during 5-second trials in an offline, synchronous BCI paradigm. Four sessions were conducted per subject. Signal processing included power spectral analysis across frequency bands (delta, theta, alpha, beta) and classification using regularized linear discriminant analysis (rLDA) and canonical correlation analysis (CCA). The dataset comprises recordings from 23 healthy participants during various locomotor states (standing, walking, running).",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Young-Eun Lee": {
       "orcid": "0000-0003-2610-7028"
@@ -15,6 +20,28 @@
       "orcid": "0000-0002-6249-4996"
     }
   },
+  "keywords": [
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "mobile BCI"
+    },
+    {
+      "term": "locomotion"
+    },
+    {
+      "term": "visual evoked potentials"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41597-021-01094-4",
@@ -56,14 +83,11 @@
       "award_number": "2019-0-00079"
     }
   ],
-  "title": "SSVEP paradigm of the Mobile BCI dataset",
-  "license": "CC BY 4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "1.4 GB (87 files)"
   ],
@@ -76,32 +100,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 23 healthy participants performing a brain-computer interface (BCI) task during various locomotion states (standing, walking, running). The study employed 73-channel EEG acquisition at 100 Hz with three visual flicker stimuli at 5.45, 8.57, and 12.0 Hz, collected across four sessions per subject. This derivative dataset is processed using the Mother of All BCI Benchmarks (MOABB) framework and serves as a benchmark for evaluating mobile BCI performance in naturalistic movement conditions.",
-  "methods_description": "EEG data were acquired using a 73-channel BrainAmp system (Brain Product GmbH) at 100 Hz sampling rate with Ag/AgCl electrodes referenced to FCz and grounded at Fpz. Participants viewed visual flicker stimuli at three frequencies (5.45, 8.57, 12.0 Hz) during 5-second trials across multiple locomotion conditions. Four EOG channels monitored eye movements. Signal processing included power spectral analysis across frequency bands (delta, theta, alpha, beta) and classification using regularized Linear Discriminant Analysis (rLDA) and Canonical Correlation Analysis (CCA).",
-  "keywords": [
-    {
-      "term": "SSVEP"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "mobile BCI"
-    },
-    {
-      "term": "locomotion"
-    },
-    {
-      "term": "visual evoked potentials"
-    }
-  ],
-  "source_hash": "acf6799b753a8d8fcf738b5dccbd079e568e1a97b2a5407b895aa2900be249ed"
+  "source_hash": "a6ec7898e5c2b1a0b18e4bc4bc40bf518a4b7f42835c7bfd56b7ab098ea90156"
 }
