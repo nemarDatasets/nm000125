@@ -1,5 +1,5 @@
 {
-	"Name": "SSVEP paradigm of the Mobile BCI dataset",
+	"Name": "Lee2021 – SSVEP paradigm of the Mobile BCI dataset",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -42,5 +42,7 @@
 		"ear-EEG",
 		"locomotion"
 	],
-	"PublicationYear": 2021
+	"PublicationYear": 2021,
+	"ExperimentName": "Lee2021",
+	"Description": "SSVEP paradigm of the Mobile BCI dataset.\n\n\nDataset summary:\n\n#Subj     24\n#Chan     32\n#Classes      3\n#Trials / class     20\nTrials length    5 s\nFreq 500 Hz\n#Sessions    4-5\n\nSee :class:`Lee2021Mobile` for full documentation."
 }
