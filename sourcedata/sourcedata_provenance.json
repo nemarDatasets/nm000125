@@ -1,0 +1,180 @@
+{
+ "dataset": "nm000125",
+ "moabb_class": "Lee2021Mobile_SSVEP",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.Lee2021Mobile_SSVEP.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-lee2021mobile-data",
+ "license": "CC BY 4.0",
+ "doi": "10.1038/s41597-021-01094-4",
+ "naming": "upstream_filenames_restored",
+ "n_files": 33,
+ "total_bytes": 52925,
+ "files": [
+  {
+   "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1606,
+   "sha256": "2ab249c451bcafdf373882418978c079eb8b73adb526aa3849cf1bc745c82853"
+  },
+  {
+   "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1607,
+   "sha256": "6f862a1a6d6fcac893e18cdf155a47e170c4cdedeaeface2b828c7997175ab5e"
+  },
+  {
+   "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1600,
+   "sha256": "74051ffb202530e4ce48bc1c0bde0d3c65f23e59c273a1b419b108df192ef2c0"
+  },
+  {
+   "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vhdr",
+   "bytes": 1602,
+   "sha256": "d65bc532628e2e18c7d704ebd550cfe51cab19db435b9bda5ab279cf85e17216"
+  },
+  {
+   "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1612,
+   "sha256": "f12f8fc05382242e58fb46f6f8466ae4d4c058239b842cd3dd0a2b8efbd56ef0"
+  },
+  {
+   "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1616,
+   "sha256": "7c67ee064f9947974295c7de2d7116fceb353e3109e5b89f2c7a94f786aab751"
+  },
+  {
+   "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1619,
+   "sha256": "66e8d8dfd01f9e6ecdfa6ffd6dfc3f36e07ed10c19398610d37db0ca266f097e"
+  },
+  {
+   "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vhdr",
+   "bytes": 1595,
+   "sha256": "f9581e20aa1851191fbab4a461cfb7056e81c6317d4d5857f34f29908c9488ec"
+  },
+  {
+   "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1591,
+   "sha256": "58266dc5a8d53d89f7ed3b83e7ce229c68966efeedcfebb890d34eb814fcca67"
+  },
+  {
+   "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1593,
+   "sha256": "cf8dd1ae896e244d350d381820120982824b5a8866054db53caf38050b009096"
+  },
+  {
+   "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1602,
+   "sha256": "6d3de8fc61266e50beb1a59cad4df77dac960e517e86ef3944dea27ccdb8db69"
+  },
+  {
+   "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vhdr",
+   "bytes": 1591,
+   "sha256": "0886b36cbe49a2830ac977399228539f4b4ef5fafe3d72e409b4308bc521c04c"
+  },
+  {
+   "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1605,
+   "sha256": "040050d409dec646212960aec1bbd1bbbcd9a7754a8ea5eb3223210efbbb4225"
+  },
+  {
+   "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1606,
+   "sha256": "a76f7a964eeee1f746d00005ffd75397146a6cd50307ad67e547dc07db2c4b11"
+  },
+  {
+   "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1600,
+   "sha256": "f82ad6004c000a554a761632e05f1d7d2381d8467cb0278174da1d74a409fb6e"
+  },
+  {
+   "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vhdr",
+   "bytes": 1609,
+   "sha256": "2ea12d3e3b37e686ffad9310635c6772c58118b60d2377cbce83d9043d994d27"
+  },
+  {
+   "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1606,
+   "sha256": "74b29126d99a91eb6443563bb4bc19263190201b2c2bf4b69185d1ecba229846"
+  },
+  {
+   "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1589,
+   "sha256": "5261c227c96de18e8a3f7642aab29291fdbf05412381a66793b7ad20641d4be3"
+  },
+  {
+   "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1613,
+   "sha256": "49271363f7237656b0b00608367c9e7b2833a01ca1d7f0e43716911605f36a8d"
+  },
+  {
+   "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vhdr",
+   "bytes": 1600,
+   "sha256": "10bbace219fc89841cb9219eb45c44dddab2ce7329ac6077cd3d9d846689b877"
+  },
+  {
+   "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1612,
+   "sha256": "1465facc95d57991c3353762db5818345de07b4ed88aa2a01474f4c4df7ba9f3"
+  },
+  {
+   "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1601,
+   "sha256": "7157530aa7b5e90d94fdd4ecc4ef6f3e71acc7f9bc2e2452410b9c06249a88ad"
+  },
+  {
+   "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1599,
+   "sha256": "b7f4526e6c0e2ed3b991645fb58afce15f4e01bd92f1f4faab7fa75cf40bdce8"
+  },
+  {
+   "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vhdr",
+   "bytes": 1589,
+   "sha256": "d2f4ae323c251b8df4b2a045e139dce777922db6673270371dff0ea430d35513"
+  },
+  {
+   "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1600,
+   "sha256": "aeffae89127bb0efb440e637dddaaea6d2a6ed55aac09d887416d3647b26348e"
+  },
+  {
+   "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1608,
+   "sha256": "35943dcde53a19e040137d90e54275ade40e0d9b7a6f5497d307e5fc6d9c7fd1"
+  },
+  {
+   "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1610,
+   "sha256": "183d81036e26685253bb6acb8b84dd0312418f398671dedd92084475710b5175"
+  },
+  {
+   "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1618,
+   "sha256": "829d2d3f5055b9191233f32d627fbbc418ed359f7bdd118f6867484c08be40b1"
+  },
+  {
+   "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1624,
+   "sha256": "c9572bda3c5cbb1dadf6a9afe556c66bb73042daf9943d045ea60218d57d8f3f"
+  },
+  {
+   "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1622,
+   "sha256": "ef994c088a0f0dfa7f296531a0b3380529dddf5f6bc7fe5c693c507181d0b55e"
+  },
+  {
+   "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vhdr",
+   "bytes": 1600,
+   "sha256": "c9dfac9989fce71264e06ba7490647cb397792f3bd538812de8f3433138721e7"
+  },
+  {
+   "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1584,
+   "sha256": "fcee6f4addb1474a96b292a0272af4427a5162d7111c4d36a6f30af15600b26e"
+  },
+  {
+   "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1596,
+   "sha256": "b08de02631027465dfcf75d168ca09f64e893afd28f7e522ef89908f64d423cf"
+  }
+ ]
+}
