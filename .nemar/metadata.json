@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Lee2021 – SSVEP paradigm of the Mobile BCI dataset",
-  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 23 healthy participants performing a brain-computer interface (BCI) task during various locomotor states (standing, walking, running). The study employed a three-class visual flickering stimulus paradigm at frequencies of 5.45, 8.57, and 12.0 Hz, with 73-channel EEG recordings sampled at 100 Hz across 4 sessions per subject. This mobile BCI dataset enables investigation of SSVEP-based neural decoding under naturalistic movement conditions.",
-  "methods_description": "EEG data were acquired using a BrainAmp system (Brain Product GmbH) with 73 Ag/AgCl electrodes referenced to FCz and grounded at Fpz. Sampling rate was 100 Hz with a 60 Hz line frequency. Impedance was maintained below 50 kOhm. Participants viewed visual flicker stimuli at three frequencies (5.45, 8.57, 12.0 Hz) during 5-second trials in an offline, synchronous BCI paradigm. Four sessions were conducted per subject. Signal processing included power spectral analysis across frequency bands (delta, theta, alpha, beta) and classification using regularized linear discriminant analysis (rLDA) and canonical correlation analysis (CCA). The dataset comprises recordings from 23 healthy participants during various locomotor states (standing, walking, running).",
+  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 23 healthy participants performing a brain-computer interface (BCI) task during various locomotor states (standing, walking, running). The study employed 73-channel EEG acquisition at 100 Hz sampling rate with three visual flicker stimuli (5.45, 8.57, and 12.0 Hz) presented across 4 sessions per subject. This mobile BCI dataset enables investigation of SSVEP-based neural decoding robustness under dynamic physical conditions.",
+  "methods_description": "EEG data were acquired using a 73-channel BrainAmp system (Brain Product GmbH) at 100 Hz sampling rate with Ag/AgCl electrodes referenced to FCz and grounded at Fpz. Participants viewed visual flicker stimuli at three frequencies (5.45, 8.57, 12.0 Hz) during 5-second trials across 4 sessions. The experimental protocol included BCI tasks performed during standing, walking, and running on a treadmill. Signal processing employed rLDA and CCA classifiers with power spectral features extracted from standard frequency bands (delta, theta, alpha, beta).",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -54,11 +54,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000125",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
@@ -66,6 +61,11 @@
     {
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000125",
+      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
@@ -89,7 +89,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.4 GB (87 files)"
+    "1.4 GB (153 files)"
   ],
   "formats": [
     ".html",
@@ -97,8 +97,9 @@
     ".md",
     ".set",
     ".tsv",
+    ".vhdr",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "a6ec7898e5c2b1a0b18e4bc4bc40bf518a4b7f42835c7bfd56b7ab098ea90156"
+  "source_hash": "492a86d92ce0b236e5eff1673be7e150e2e54c597dd81947d2f90c6bc94e758a"
 }
