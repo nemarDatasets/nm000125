@@ -46,5 +46,5 @@
   "ExperimentName": "Lee2021",
   "Description": "SSVEP paradigm of the Mobile BCI dataset.\n\n\nDataset summary:\n\n#Subj     24\n#Chan     32\n#Classes      3\n#Trials / class     20\nTrials length    5 s\nFreq 500 Hz\n#Sessions    4-5\n\nSee :class:`Lee2021Mobile` for full documentation.",
   "DatasetDOI": "10.82901/nemar.nm000125",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
