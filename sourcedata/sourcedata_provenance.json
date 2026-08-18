@@ -14,332 +14,399 @@
   {
    "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1624,
-   "sha256": "095a98d807e5809a20b78feb31dfbbce40e1f5fbc0f7e615f802142f923616e9"
+   "sha256": "095a98d807e5809a20b78feb31dfbbce40e1f5fbc0f7e615f802142f923616e9",
+   "subject": "1"
   },
   {
    "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1622,
-   "sha256": "12790b1ee6eb8bad1806fad148c8283bc727283107bce44d244d7f0ddba326ee"
+   "sha256": "12790b1ee6eb8bad1806fad148c8283bc727283107bce44d244d7f0ddba326ee",
+   "subject": "1"
   },
   {
    "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1614,
-   "sha256": "07c616d45cc391e3ec5afab3d9358dd79308adefb64dae4dd1a960ed140c5130"
+   "sha256": "07c616d45cc391e3ec5afab3d9358dd79308adefb64dae4dd1a960ed140c5130",
+   "subject": "2"
   },
   {
    "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1603,
-   "sha256": "085f9bd930bd309c46047b651e270f3c6b1a3a16b1e58ae808e2280f644ef223"
+   "sha256": "085f9bd930bd309c46047b651e270f3c6b1a3a16b1e58ae808e2280f644ef223",
+   "subject": "2"
   },
   {
    "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1608,
-   "sha256": "73e6eb90b7291c2489cd5baf4251681fb46af9598d3fbf4dc1ee11a4ff165120"
+   "sha256": "73e6eb90b7291c2489cd5baf4251681fb46af9598d3fbf4dc1ee11a4ff165120",
+   "subject": "2"
   },
   {
    "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1599,
-   "sha256": "5741bd06c42346a0f0935fa09390e82f8cf4d66bf2d8409409ea96e7d9c1f85d"
+   "sha256": "5741bd06c42346a0f0935fa09390e82f8cf4d66bf2d8409409ea96e7d9c1f85d",
+   "subject": "2"
   },
   {
    "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1625,
-   "sha256": "5837699ea017b751c79fd7b08a11c2b416c7638923e91b33131c3309e60ca234"
+   "sha256": "5837699ea017b751c79fd7b08a11c2b416c7638923e91b33131c3309e60ca234",
+   "subject": "3"
   },
   {
    "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1600,
-   "sha256": "99d7c65fdd2a2ef5bd4ae238461d8e26cd09a13cde891c6dae4cb537d372f293"
+   "sha256": "99d7c65fdd2a2ef5bd4ae238461d8e26cd09a13cde891c6dae4cb537d372f293",
+   "subject": "4"
   },
   {
    "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1606,
-   "sha256": "2ab249c451bcafdf373882418978c079eb8b73adb526aa3849cf1bc745c82853"
+   "sha256": "2ab249c451bcafdf373882418978c079eb8b73adb526aa3849cf1bc745c82853",
+   "subject": "5"
   },
   {
    "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1607,
-   "sha256": "6f862a1a6d6fcac893e18cdf155a47e170c4cdedeaeface2b828c7997175ab5e"
+   "sha256": "6f862a1a6d6fcac893e18cdf155a47e170c4cdedeaeface2b828c7997175ab5e",
+   "subject": "5"
   },
   {
    "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1600,
-   "sha256": "74051ffb202530e4ce48bc1c0bde0d3c65f23e59c273a1b419b108df192ef2c0"
+   "sha256": "74051ffb202530e4ce48bc1c0bde0d3c65f23e59c273a1b419b108df192ef2c0",
+   "subject": "5"
   },
   {
    "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1602,
-   "sha256": "d65bc532628e2e18c7d704ebd550cfe51cab19db435b9bda5ab279cf85e17216"
+   "sha256": "d65bc532628e2e18c7d704ebd550cfe51cab19db435b9bda5ab279cf85e17216",
+   "subject": "5"
   },
   {
    "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1612,
-   "sha256": "f12f8fc05382242e58fb46f6f8466ae4d4c058239b842cd3dd0a2b8efbd56ef0"
+   "sha256": "f12f8fc05382242e58fb46f6f8466ae4d4c058239b842cd3dd0a2b8efbd56ef0",
+   "subject": "6"
   },
   {
    "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1616,
-   "sha256": "7c67ee064f9947974295c7de2d7116fceb353e3109e5b89f2c7a94f786aab751"
+   "sha256": "7c67ee064f9947974295c7de2d7116fceb353e3109e5b89f2c7a94f786aab751",
+   "subject": "6"
   },
   {
    "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1619,
-   "sha256": "66e8d8dfd01f9e6ecdfa6ffd6dfc3f36e07ed10c19398610d37db0ca266f097e"
+   "sha256": "66e8d8dfd01f9e6ecdfa6ffd6dfc3f36e07ed10c19398610d37db0ca266f097e",
+   "subject": "6"
   },
   {
    "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1595,
-   "sha256": "f9581e20aa1851191fbab4a461cfb7056e81c6317d4d5857f34f29908c9488ec"
+   "sha256": "f9581e20aa1851191fbab4a461cfb7056e81c6317d4d5857f34f29908c9488ec",
+   "subject": "6"
   },
   {
    "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 2316,
-   "sha256": "a436c9eeb2950eb7eda73dbabbfa1d0ed044c05de13506e2383189eb3666cf9e"
+   "sha256": "a436c9eeb2950eb7eda73dbabbfa1d0ed044c05de13506e2383189eb3666cf9e",
+   "subject": "7"
   },
   {
    "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 2330,
-   "sha256": "7a8e51282aae95f2da8d84fb9345f2fe9aacfe6259bae5d51fee835d3f3fa3eb"
+   "sha256": "7a8e51282aae95f2da8d84fb9345f2fe9aacfe6259bae5d51fee835d3f3fa3eb",
+   "subject": "7"
   },
   {
    "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 2333,
-   "sha256": "25e84d5311fa12f26e1d61720213299ef8a368341a5d9fec8160df9f98635cc4"
+   "sha256": "25e84d5311fa12f26e1d61720213299ef8a368341a5d9fec8160df9f98635cc4",
+   "subject": "7"
   },
   {
    "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 2321,
-   "sha256": "aba2050093d160b7e0af71b14c86095151bca4ae25e49af4861eb725f3283017"
+   "sha256": "aba2050093d160b7e0af71b14c86095151bca4ae25e49af4861eb725f3283017",
+   "subject": "7"
   },
   {
    "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1591,
-   "sha256": "58266dc5a8d53d89f7ed3b83e7ce229c68966efeedcfebb890d34eb814fcca67"
+   "sha256": "58266dc5a8d53d89f7ed3b83e7ce229c68966efeedcfebb890d34eb814fcca67",
+   "subject": "8"
   },
   {
    "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1593,
-   "sha256": "cf8dd1ae896e244d350d381820120982824b5a8866054db53caf38050b009096"
+   "sha256": "cf8dd1ae896e244d350d381820120982824b5a8866054db53caf38050b009096",
+   "subject": "8"
   },
   {
    "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1602,
-   "sha256": "6d3de8fc61266e50beb1a59cad4df77dac960e517e86ef3944dea27ccdb8db69"
+   "sha256": "6d3de8fc61266e50beb1a59cad4df77dac960e517e86ef3944dea27ccdb8db69",
+   "subject": "8"
   },
   {
    "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1591,
-   "sha256": "0886b36cbe49a2830ac977399228539f4b4ef5fafe3d72e409b4308bc521c04c"
+   "sha256": "0886b36cbe49a2830ac977399228539f4b4ef5fafe3d72e409b4308bc521c04c",
+   "subject": "8"
   },
   {
    "file": "sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1584,
-   "sha256": "43e4b6fb3a719cccb3b76493fb72a9af91fb78340cea0a5b7bda4fd59a9d945a"
+   "sha256": "43e4b6fb3a719cccb3b76493fb72a9af91fb78340cea0a5b7bda4fd59a9d945a",
+   "subject": "9"
   },
   {
    "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1593,
-   "sha256": "171bde88765c4440024c55e20ab20092ed0e95b511f064105096bb51db25b29b"
+   "sha256": "171bde88765c4440024c55e20ab20092ed0e95b511f064105096bb51db25b29b",
+   "subject": "9"
   },
   {
    "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1589,
-   "sha256": "79b2382f5430e11a5cf00799a9c62e5ee69410b5cf69f4c2aed1e5c23708e7ac"
+   "sha256": "79b2382f5430e11a5cf00799a9c62e5ee69410b5cf69f4c2aed1e5c23708e7ac",
+   "subject": "9"
   },
   {
    "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1599,
-   "sha256": "abc67d5c656d09ef780b48cdcf192d5a096799e27832153eb73a174f732c6833"
+   "sha256": "abc67d5c656d09ef780b48cdcf192d5a096799e27832153eb73a174f732c6833",
+   "subject": "9"
   },
   {
    "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1606,
-   "sha256": "a76a75091612475d2f20a602cfd3aa51d80cbc024765d1dea7476ef487f8dedf"
+   "sha256": "a76a75091612475d2f20a602cfd3aa51d80cbc024765d1dea7476ef487f8dedf",
+   "subject": "10"
   },
   {
    "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1608,
-   "sha256": "69c22abc6d682ff76393fbd79f5874184502b127f5c0df8fdf8fd44215d00236"
+   "sha256": "69c22abc6d682ff76393fbd79f5874184502b127f5c0df8fdf8fd44215d00236",
+   "subject": "10"
   },
   {
    "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1609,
-   "sha256": "dd0000415c484714c96944a8b169e1def373e3975954ed280dd8914aa5cc62cf"
+   "sha256": "dd0000415c484714c96944a8b169e1def373e3975954ed280dd8914aa5cc62cf",
+   "subject": "10"
   },
   {
    "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1602,
-   "sha256": "f768a9c10f506e571eb6bc3e56084724ec3d26503bc26e564080a2460c07a279"
+   "sha256": "f768a9c10f506e571eb6bc3e56084724ec3d26503bc26e564080a2460c07a279",
+   "subject": "10"
   },
   {
    "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1598,
-   "sha256": "0b4f136efd328edd624b48f32a90b4b8108b9ad9ccb1f40522e03e5b8532d4fd"
+   "sha256": "0b4f136efd328edd624b48f32a90b4b8108b9ad9ccb1f40522e03e5b8532d4fd",
+   "subject": "11"
   },
   {
    "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1596,
-   "sha256": "80b7f9b4b837ba15a2648dec7726b4d78878da3fc981055ef6973e9ef92d9d11"
+   "sha256": "80b7f9b4b837ba15a2648dec7726b4d78878da3fc981055ef6973e9ef92d9d11",
+   "subject": "12"
   },
   {
    "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1605,
-   "sha256": "040050d409dec646212960aec1bbd1bbbcd9a7754a8ea5eb3223210efbbb4225"
+   "sha256": "040050d409dec646212960aec1bbd1bbbcd9a7754a8ea5eb3223210efbbb4225",
+   "subject": "13"
   },
   {
    "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1606,
-   "sha256": "a76f7a964eeee1f746d00005ffd75397146a6cd50307ad67e547dc07db2c4b11"
+   "sha256": "a76f7a964eeee1f746d00005ffd75397146a6cd50307ad67e547dc07db2c4b11",
+   "subject": "13"
   },
   {
    "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1600,
-   "sha256": "f82ad6004c000a554a761632e05f1d7d2381d8467cb0278174da1d74a409fb6e"
+   "sha256": "f82ad6004c000a554a761632e05f1d7d2381d8467cb0278174da1d74a409fb6e",
+   "subject": "13"
   },
   {
    "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1609,
-   "sha256": "2ea12d3e3b37e686ffad9310635c6772c58118b60d2377cbce83d9043d994d27"
+   "sha256": "2ea12d3e3b37e686ffad9310635c6772c58118b60d2377cbce83d9043d994d27",
+   "subject": "13"
   },
   {
    "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1606,
-   "sha256": "74b29126d99a91eb6443563bb4bc19263190201b2c2bf4b69185d1ecba229846"
+   "sha256": "74b29126d99a91eb6443563bb4bc19263190201b2c2bf4b69185d1ecba229846",
+   "subject": "14"
   },
   {
    "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1589,
-   "sha256": "5261c227c96de18e8a3f7642aab29291fdbf05412381a66793b7ad20641d4be3"
+   "sha256": "5261c227c96de18e8a3f7642aab29291fdbf05412381a66793b7ad20641d4be3",
+   "subject": "14"
   },
   {
    "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1613,
-   "sha256": "49271363f7237656b0b00608367c9e7b2833a01ca1d7f0e43716911605f36a8d"
+   "sha256": "49271363f7237656b0b00608367c9e7b2833a01ca1d7f0e43716911605f36a8d",
+   "subject": "14"
   },
   {
    "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1600,
-   "sha256": "10bbace219fc89841cb9219eb45c44dddab2ce7329ac6077cd3d9d846689b877"
+   "sha256": "10bbace219fc89841cb9219eb45c44dddab2ce7329ac6077cd3d9d846689b877",
+   "subject": "14"
   },
   {
    "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1612,
-   "sha256": "1465facc95d57991c3353762db5818345de07b4ed88aa2a01474f4c4df7ba9f3"
+   "sha256": "1465facc95d57991c3353762db5818345de07b4ed88aa2a01474f4c4df7ba9f3",
+   "subject": "15"
   },
   {
    "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1601,
-   "sha256": "7157530aa7b5e90d94fdd4ecc4ef6f3e71acc7f9bc2e2452410b9c06249a88ad"
+   "sha256": "7157530aa7b5e90d94fdd4ecc4ef6f3e71acc7f9bc2e2452410b9c06249a88ad",
+   "subject": "15"
   },
   {
    "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1599,
-   "sha256": "b7f4526e6c0e2ed3b991645fb58afce15f4e01bd92f1f4faab7fa75cf40bdce8"
+   "sha256": "b7f4526e6c0e2ed3b991645fb58afce15f4e01bd92f1f4faab7fa75cf40bdce8",
+   "subject": "15"
   },
   {
    "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1589,
-   "sha256": "d2f4ae323c251b8df4b2a045e139dce777922db6673270371dff0ea430d35513"
+   "sha256": "d2f4ae323c251b8df4b2a045e139dce777922db6673270371dff0ea430d35513",
+   "subject": "15"
   },
   {
    "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1600,
-   "sha256": "aeffae89127bb0efb440e637dddaaea6d2a6ed55aac09d887416d3647b26348e"
+   "sha256": "aeffae89127bb0efb440e637dddaaea6d2a6ed55aac09d887416d3647b26348e",
+   "subject": "16"
   },
   {
    "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1608,
-   "sha256": "35943dcde53a19e040137d90e54275ade40e0d9b7a6f5497d307e5fc6d9c7fd1"
+   "sha256": "35943dcde53a19e040137d90e54275ade40e0d9b7a6f5497d307e5fc6d9c7fd1",
+   "subject": "16"
   },
   {
    "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1610,
-   "sha256": "183d81036e26685253bb6acb8b84dd0312418f398671dedd92084475710b5175"
+   "sha256": "183d81036e26685253bb6acb8b84dd0312418f398671dedd92084475710b5175",
+   "subject": "16"
   },
   {
    "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1618,
-   "sha256": "829d2d3f5055b9191233f32d627fbbc418ed359f7bdd118f6867484c08be40b1"
+   "sha256": "829d2d3f5055b9191233f32d627fbbc418ed359f7bdd118f6867484c08be40b1",
+   "subject": "17"
   },
   {
    "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1624,
-   "sha256": "c9572bda3c5cbb1dadf6a9afe556c66bb73042daf9943d045ea60218d57d8f3f"
+   "sha256": "c9572bda3c5cbb1dadf6a9afe556c66bb73042daf9943d045ea60218d57d8f3f",
+   "subject": "17"
   },
   {
    "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1622,
-   "sha256": "ef994c088a0f0dfa7f296531a0b3380529dddf5f6bc7fe5c693c507181d0b55e"
+   "sha256": "ef994c088a0f0dfa7f296531a0b3380529dddf5f6bc7fe5c693c507181d0b55e",
+   "subject": "17"
   },
   {
    "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1609,
-   "sha256": "032f1ae37c593a7e0453b9784cacc000cfca1ad2346b776d289715ac768ee579"
+   "sha256": "032f1ae37c593a7e0453b9784cacc000cfca1ad2346b776d289715ac768ee579",
+   "subject": "18"
   },
   {
    "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1608,
-   "sha256": "7612d07ca1056f203cb6acceabd830788bd05750c5cff39fd8ce4a2e345c31fd"
+   "sha256": "7612d07ca1056f203cb6acceabd830788bd05750c5cff39fd8ce4a2e345c31fd",
+   "subject": "18"
   },
   {
    "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.vhdr",
    "bytes": 1602,
-   "sha256": "88af7789f80074891761bd4078ade3efd87a6d73e5cbfcc6b070f46e0c3fcd33"
+   "sha256": "88af7789f80074891761bd4078ade3efd87a6d73e5cbfcc6b070f46e0c3fcd33",
+   "subject": "18"
   },
   {
    "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1599,
-   "sha256": "a8346432a0dafc90ffb719de2aa838e288dbae0dde81b31d68f4c45ecdd7949e"
+   "sha256": "a8346432a0dafc90ffb719de2aa838e288dbae0dde81b31d68f4c45ecdd7949e",
+   "subject": "19"
   },
   {
    "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1579,
-   "sha256": "5bd8abe634cf062f8a33284e8db0273e1131e11359837040b15bf461f54a56c4"
+   "sha256": "5bd8abe634cf062f8a33284e8db0273e1131e11359837040b15bf461f54a56c4",
+   "subject": "19"
   },
   {
    "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1612,
-   "sha256": "9312c24d4486a6e43b62b347ac294b331aa07db64c453d7c391c13d7f877bf78"
+   "sha256": "9312c24d4486a6e43b62b347ac294b331aa07db64c453d7c391c13d7f877bf78",
+   "subject": "20"
   },
   {
    "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1615,
-   "sha256": "6125b150771e2953c3d6dc8e16676579f60f29f451ca6631f03cfb11b88b28df"
+   "sha256": "6125b150771e2953c3d6dc8e16676579f60f29f451ca6631f03cfb11b88b28df",
+   "subject": "20"
   },
   {
    "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1597,
-   "sha256": "0de6e02d268ba8075a7764dcd940a7afbf912d4f3bd49f6ebd22bcf5fa67880f"
+   "sha256": "0de6e02d268ba8075a7764dcd940a7afbf912d4f3bd49f6ebd22bcf5fa67880f",
+   "subject": "20"
   },
   {
    "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1623,
-   "sha256": "b559c7ddfdda8a8a95e658e6ac530bff5461a2cdbb86ae1595fa8b5af7cac313"
+   "sha256": "b559c7ddfdda8a8a95e658e6ac530bff5461a2cdbb86ae1595fa8b5af7cac313",
+   "subject": "21"
   },
   {
    "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1598,
-   "sha256": "12b089caa86bef6a1a52d6d123a7bf6dd464d81ebe9da70ce66185da98d1608c"
+   "sha256": "12b089caa86bef6a1a52d6d123a7bf6dd464d81ebe9da70ce66185da98d1608c",
+   "subject": "21"
   },
   {
    "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1604,
-   "sha256": "38ac5f11963554c6648525f4851f9113e3ad523a9947a2809da6be5a8ff44455"
+   "sha256": "38ac5f11963554c6648525f4851f9113e3ad523a9947a2809da6be5a8ff44455",
+   "subject": "22"
   },
   {
    "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vhdr",
    "bytes": 1600,
-   "sha256": "c9dfac9989fce71264e06ba7490647cb397792f3bd538812de8f3433138721e7"
+   "sha256": "c9dfac9989fce71264e06ba7490647cb397792f3bd538812de8f3433138721e7",
+   "subject": "23"
   },
   {
    "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vhdr",
    "bytes": 1584,
-   "sha256": "fcee6f4addb1474a96b292a0272af4427a5162d7111c4d36a6f30af15600b26e"
+   "sha256": "fcee6f4addb1474a96b292a0272af4427a5162d7111c4d36a6f30af15600b26e",
+   "subject": "23"
   },
   {
    "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vhdr",
    "bytes": 1596,
-   "sha256": "b08de02631027465dfcf75d168ca09f64e893afd28f7e522ef89908f64d423cf"
+   "sha256": "b08de02631027465dfcf75d168ca09f64e893afd28f7e522ef89908f64d423cf",
+   "subject": "23"
   }
- ]
+ ],
+ "n_subjects_recorded": 23
 }
