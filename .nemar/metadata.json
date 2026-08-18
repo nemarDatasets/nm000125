@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Lee2021 – SSVEP paradigm of the Mobile BCI dataset",
-  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 23 healthy participants performing a brain-computer interface (BCI) task during various locomotor states (standing, walking, running). The study employed 73-channel EEG acquisition at 100 Hz sampling rate with three visual flicker stimuli (5.45, 8.57, and 12.0 Hz) presented across 4 sessions per subject. This mobile BCI dataset enables investigation of SSVEP-based neural decoding robustness under dynamic physical conditions.",
-  "methods_description": "EEG data were acquired using a 73-channel BrainAmp system (Brain Product GmbH) at 100 Hz sampling rate with Ag/AgCl electrodes referenced to FCz and grounded at Fpz. Participants viewed visual flicker stimuli at three frequencies (5.45, 8.57, 12.0 Hz) during 5-second trials across 4 sessions. The experimental protocol included BCI tasks performed during standing, walking, and running on a treadmill. Signal processing employed rLDA and CCA classifiers with power spectral features extracted from standard frequency bands (delta, theta, alpha, beta).",
+  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 23 healthy participants performing a brain-computer interface (BCI) task during various locomotor states (standing, walking, running). The study employed 73-channel EEG acquisition at 100 Hz sampling rate with three visual flicker stimuli at 5.45, 8.57, and 12.0 Hz, collected across 4 sessions per subject. The dataset is designed to evaluate BCI performance in mobile and naturalistic environments.",
+  "methods_description": "EEG data were acquired using a 73-channel BrainAmp system (Brain Product GmbH) at 100 Hz sampling rate with Ag/AgCl electrodes referenced to FCz and grounded at Fpz. Impedance was maintained below 50 kOhm. Four additional EOG channels monitored eye movements. Participants performed SSVEP-based BCI tasks during three locomotor conditions (standing, walking, running) with visual stimuli presented at three frequencies (5.45, 8.57, 12.0 Hz). Each trial lasted 5 seconds with 20 trials per class across 4 sessions.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -28,9 +28,7 @@
       "term": "EEG"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "brain-computer interface"
     },
     {
       "term": "mobile BCI"
@@ -40,6 +38,18 @@
     },
     {
       "term": "visual evoked potentials"
+    },
+    {
+      "term": "ERP"
+    },
+    {
+      "term": "ear-EEG"
+    },
+    {
+      "term": "perception"
+    },
+    {
+      "term": "healthy"
     }
   ],
   "related_identifiers": [
@@ -101,5 +111,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "492a86d92ce0b236e5eff1673be7e150e2e54c597dd81947d2f90c6bc94e758a"
+  "source_hash": "f8a81ca1431e83d3bc6dcbecf00cfd02a6006d4c36cf6a8db068297358590df9"
 }
