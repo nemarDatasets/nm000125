@@ -8,8 +8,8 @@
  "license": "CC BY 4.0",
  "doi": "10.1038/s41597-021-01094-4",
  "naming": "upstream_filenames_restored",
- "n_files": 66,
- "total_bytes": 108750,
+ "n_files": 203,
+ "total_bytes": 1855472221,
  "files": [
   {
    "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vhdr",
@@ -406,7 +406,975 @@
    "bytes": 1596,
    "sha256": "b08de02631027465dfcf75d168ca09f64e893afd28f7e522ef89908f64d423cf",
    "subject": "23"
+  },
+  {
+   "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27263300,
+   "sha256": "5e94eabd6491cdc24fa43cbb28a21f47513520f3ac7dcc00aa338625d1be9a64",
+   "subject": "1",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "40fceb050638ba766aeb2e1092ae6f07a7377be5625792899e6b2f5c43e96ced",
+   "subject": "1",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26578500,
+   "sha256": "55e04a0dcc5f8d945706b94a6c67d1f9080a68da714fb17f0d16bda8e73f5c2d",
+   "subject": "1",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "0bb7db557bb525b4d11ece5688b1730187d2583bbe5c045fefdb838e91779691",
+   "subject": "1",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 26697500,
+   "sha256": "d7772ffd4f3e2717a1745149e73b0a3e430480985857ea7da2a35fc9d2951982",
+   "subject": "2",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "c927b291082e9d2d00bf5273e7b4c892d9d5fe3fb6faba2a19f760fb3a4026fb",
+   "subject": "2",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26651700,
+   "sha256": "20b27ef903bbef1993bba6943ef60b1cc7ce0be5431b83a641af391a901c2f32",
+   "subject": "2",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "f253e3dc497ebef3d0ab148858ab47f242889b19ec4c400e1e0f40935d231434",
+   "subject": "2",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 27250000,
+   "sha256": "99b9a9e161f543cb5367283c3ac989c75bd1cd3197d1086a4e31b1e470be5419",
+   "subject": "2",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2006,
+   "sha256": "97f2597eb34e48dc93dbbc6c59cd8e6906b293fdaa774d54b19055c6ef94e3b5",
+   "subject": "2",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 31714100,
+   "sha256": "335f610a800ebafe6861f58b6de96346ce4fbd9fb97e65126043431315052bca",
+   "subject": "2",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2008,
+   "sha256": "a63b05378c4ed1af5950c42473e85624a5407817b84c0d2daa817e1df2105e66",
+   "subject": "2",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27045200,
+   "sha256": "05c0893289835f5a5e82587a03df298d441c2afab816dbb4d74e56bef5141a5c",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "45974af76a9b4917d43ec5dbf24e2cfa532f93ce61a8fbbfebd0b19bf73b3012",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26948600,
+   "sha256": "98552a19031889fd8e62d658b4ecb599c386c969bbc4db5534be7e746b61d129",
+   "subject": "4",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "a5b55f25b2444075ffba057e278a75d8fbdbf7f7fa62f0b2662b289bac8d4403",
+   "subject": "4",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 29801100,
+   "sha256": "619383d4ce737e84e09290f8f13f65a4c53412bec96d2b70a82754b6f2a0f511",
+   "subject": "5",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2010,
+   "sha256": "bc56d93a0ed8842faa8b2794076b7dead76750f59df4d281e6267e78e076d58b",
+   "subject": "5",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 28662200,
+   "sha256": "009c8c874bca3893d9a3a33f6705c288e208efb6b3ee771e5ee992577ab126e8",
+   "subject": "5",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2008,
+   "sha256": "89d2e724f670937a744407dfa0724f994df554fa827ff6d8f4919b0f2dcd8d72",
+   "subject": "5",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 27112400,
+   "sha256": "c82558594a1f91ff9154e20ca7914fff6d3bde8db306a023bd85a3e8310ca586",
+   "subject": "5",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "c8ba890d991c5295d84b47b2b39a875ad4087700328ac79349bbbd37c67b7263",
+   "subject": "5",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 29112600,
+   "sha256": "9bac66928ab590cf9d01226386c2cbfe59e0f4ea4a7c48886d3224cba138b796",
+   "subject": "5",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2010,
+   "sha256": "f0042cdcfe6c448c9c2bb28f2c6a38babe457432fe24b0941a3a4a4f8b74c9b4",
+   "subject": "5",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 26892500,
+   "sha256": "c72e22ed9739743058e2cfcb305d1077a42a08ef18b4a16e9efce7c609228df7",
+   "subject": "6",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "d2e03d449ad5c2b31ce838452754480a42c3efdbaad1af91d6bb2df4fd6e7ebb",
+   "subject": "6",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 27253300,
+   "sha256": "1a9d58319fd37f00ee9c8388dda985e5bd2ed158c8a33d8dae35c80b0ae1bf4e",
+   "subject": "6",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "8724f3d79182b91e15f53b2f3c25593030dfe856dc71cdd9649862b110ac8566",
+   "subject": "6",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26973800,
+   "sha256": "2c13c730091f216cf85739209312fadba688902f8c88bf06497716fa9ea397c8",
+   "subject": "6",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "b30c3ff75c28e789f6902c059080238efbde6092b8e5f1562223b7f7ba1da43c",
+   "subject": "6",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 29369700,
+   "sha256": "878f6fa6622d1f69002008a7d87cd3519e2f78c2d80966a3ea2f19c78dacc82a",
+   "subject": "6",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2006,
+   "sha256": "3bd493e32b8ebb5c5740b7a9690679698278cfc4e125e867580627b2211304ea",
+   "subject": "6",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 26945400,
+   "sha256": "afe56876c08c86befeb1c4505166000e6adb3f6b35fd2c70443e94dc348a946e",
+   "subject": "8",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "70a7a845dab6a55e0e8e9d848f8a9f7c6381d8763384c997ee5f6cc33b893807",
+   "subject": "8",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26911100,
+   "sha256": "090185ead0e4bff3f68488572cd3e80939447dcdbc8d120947b541ca8a03b6fe",
+   "subject": "8",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "550c1bfa9ccb8fddf46a8839695da025d2ac363a2c57cfdd50d5619228806367",
+   "subject": "8",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 27029700,
+   "sha256": "fa5aa066bc11e775fea426c98e43982cf2f9fb5d623f06e01ef85bc63cf05551",
+   "subject": "8",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "e28c9c1192e7ee06a623f2244c62d950749e00f7e13925289251f04ac68253d0",
+   "subject": "8",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 26822100,
+   "sha256": "bcd81d9c5b5eac8d2af1f14ed493148965ac370e7bfa21c3f483c441998ae352",
+   "subject": "8",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "41073b052ed8d48742ba138c8c6ec30958ee832731993d28f1324fd0efa2af7e",
+   "subject": "8",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26969000,
+   "sha256": "c77c7c9c9e1518c4c6d48b26d981743b2826572e125738a3d9e6845156ae95c9",
+   "subject": "9",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "45acd8712f09dc19318114c4608fdd4be216f29f3f643ae89b6978a6f10df523",
+   "subject": "9",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26823600,
+   "sha256": "eb60f0f9428e0956d8a321a6983c8d8c2078604fd09ead871c12238da9d6fb4d",
+   "subject": "9",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "74afb6c56000d1f56bce9e1a2beec0c2abc74028b2422c4d4e433f446f723ca2",
+   "subject": "9",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 26752800,
+   "sha256": "a7068e26db175f3cd3a56d45ae14a307195f39f5ec78aba126537560efa10023",
+   "subject": "9",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "8467ac420c30c2c84e0d04d6f97ba1a582d5369b3155a2c32d3a59448ba765c3",
+   "subject": "9",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27536000,
+   "sha256": "422b82456d91478a23e1d90a51eaa314ee5a68c77c65c062a36d469c8f92246a",
+   "subject": "10",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "6226ca82f59b5dcd97724a682c83b7260a98bc3dfc7423e8a3651ffeb5e83fb5",
+   "subject": "10",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 27043100,
+   "sha256": "43a017a2c915e0dcb10523d97b6e2d4afec1a12855118b71d22ce1cc138dadce",
+   "subject": "10",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "d766c51eb0db06667197fbce766035549a8681842c15d29917108801dac4de78",
+   "subject": "10",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26874500,
+   "sha256": "d78e438da54c962c2d1463a5323224f7ae144bc26558786a2a84e545a3b69cfe",
+   "subject": "10",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "d5f8978d5170f814fd78699f5ee2d31ef19ad0d504ce20809616d1dd21dbce1c",
+   "subject": "10",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 26815400,
+   "sha256": "a7fcba67e81c4f01d318e91d8a5ed4d708a80d00c43c8d5e7ef2f4530d8f7b49",
+   "subject": "10",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "becf9aa870794bb2b233a479cc9b87336933eaba7329e24b37c3de0377d7d090",
+   "subject": "10",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 29851200,
+   "sha256": "8d36192a9491bd0cd59badbd468d0d431cd20297785ddb0218c5632b84efe47b",
+   "subject": "11",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2008,
+   "sha256": "6fc2662fc4897633d0ea9b573b41eb65ec356ba488796941f2ad47153cc30483",
+   "subject": "11",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27368300,
+   "sha256": "f28a3fcc001618f161fd9a46142bd22b5976c7cdec6cd8ad262e63d5c8cb6672",
+   "subject": "12",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "dbcc2fa160be326c505efbae4d8fb2be0f0a688fbec06a1180d3881555e84f4b",
+   "subject": "12",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 26866000,
+   "sha256": "0b39c7834d5dcf58e15a41ee37a77e0e87bba0eb828866edd3ac973aa9aef051",
+   "subject": "13",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "28baa91810858db1dccba7bb9db33ceb17213da186e5554e642079b58d74b63f",
+   "subject": "13",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 29759200,
+   "sha256": "c24ea7acdf484ce60541f0f8d2a29840378565eefc5c922547b9aafecff920d1",
+   "subject": "13",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2011,
+   "sha256": "6da7ba9b89f00aa02ba2c705fd640f7c7e0f7ac8ce5cf0a5c324d382438ea7f0",
+   "subject": "13",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26867000,
+   "sha256": "1779aa713c4e861f3c3f3f04179687e85e943c0660584bd76e69476b77d81011",
+   "subject": "13",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "e66f1957ed2fb5d5f29634415beeb8440428e4e10fbf1c1d5c631889c885aa16",
+   "subject": "13",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 26821800,
+   "sha256": "ed82e27b324e56f8ef8736252597d0b7c030a83226475c5d922b807dc700c6ff",
+   "subject": "13",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "f8ded2fe02c3087c574f89ce7f43682d72a021f73f7d4f1c9939484d7c78a5c2",
+   "subject": "13",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27058100,
+   "sha256": "f592e28f4b07eff443114927a8fb820c44747b34dc9c1f465863846efb48a8e5",
+   "subject": "14",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "bf0917bda6166f087704e20896da31ca6060950cda453f0740d2c8bfebc34130",
+   "subject": "14",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26792200,
+   "sha256": "5bb3a30913b570c63d3c1b91b9778e7b6f3b7a329d21b35046494269d3395386",
+   "subject": "14",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "c7bf236e2d5065f8e484c3593606bca244fd872cf90aa6fb5d179c5a1ce015a7",
+   "subject": "14",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26763600,
+   "sha256": "ba8f1e72b9f71a96f5d80ed42c5964af7552bf343da2c6678b98954c9c433ace",
+   "subject": "14",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "e88c9f4e96632e2ae32f87db190064e5886de2dca2a5eab1d8def986ff933b6f",
+   "subject": "14",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 24885700,
+   "sha256": "d729c98da655f4d88ec2070c955b778af15c837135013a011a1a415746b60415",
+   "subject": "14",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 1602,
+   "sha256": "3b70c8f2b84a6a1c74d8d15cc646f1b9f5da88fa45624a5b55d6e4576b6f070e",
+   "subject": "14",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27901100,
+   "sha256": "21478b6c774908c52c1a9fcfb793a8c8f64c6c65409a2506d5e9014f03258e64",
+   "subject": "15",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2007,
+   "sha256": "be9694d2b41f56c89c3b16814e4833b72174ee95050f38be6bc5e3fb518243b8",
+   "subject": "15",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26705000,
+   "sha256": "dd2e59c9eb6d1b518fea5a6f4a1468ad9f1d8738120d096fba1503d0f595bb6a",
+   "subject": "15",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "b2b5b15ad9f473ccca63637644682b23ae83cd9bde26ff9066afa115eb37c423",
+   "subject": "15",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 27954300,
+   "sha256": "c5b127fb8a9ab3426685a4883e034e8afdef8a4376d11082e1be2cb8e2f9dc95",
+   "subject": "15",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2007,
+   "sha256": "4b32718eed8db07a7caf1c177a2f909b2c3160ec462839d1073f999f07f675ab",
+   "subject": "15",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 34871900,
+   "sha256": "8b3769212ebe5dd3d4310c8059bdf147182aaf1ced75e4dad39a524e00d15b23",
+   "subject": "15",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "07d1b9fa7cdbcd569a26f3db07e473818bfc0d1b9f733f75e456cacee6deee6d",
+   "subject": "15",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 30846100,
+   "sha256": "b8c33d6e9694b4276b4c2d82e8c3dc9dcd280699e3d331263069f34ea48d045c",
+   "subject": "16",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2006,
+   "sha256": "ea7134ecd5ec3b78862dd35dc79921133a0a1054396ac38fff7af9225d7791bb",
+   "subject": "16",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26747800,
+   "sha256": "1a9a961b57dd08248a5c16f98498738d4a70b85d15555c6630c04e951a27d7ae",
+   "subject": "16",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "5d375a34ece0b7d4e5d32ac1878f3de31904b6fd026323e92dbb6f34606e64b0",
+   "subject": "16",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26654400,
+   "sha256": "2d811e63bf6ba2d84e5626fd5ef47cb0b299d05024bbd9957897c85a414d3146",
+   "subject": "16",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "a415f20a7cd17796f5d404ccc4e743c6c9b1ec197d6f3b69bedcca4746a43662",
+   "subject": "16",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27195900,
+   "sha256": "5b6bb34273fc30f8a3c77012aeb85ac43b35bf5dbd8749166d4199dc9981d86d",
+   "subject": "17",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "1ccae054df2311c86064b9a51dbc18cedce2ffc884357c3093a44d6fd8e6b0c3",
+   "subject": "17",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26767200,
+   "sha256": "81d97810ff371413eb5809ddc6b227c6521fb3116e57f68657162edf7397e0ba",
+   "subject": "17",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "66c1111bfd9c668fe82488b5f7987a2810f994e05dc2f8ad314a1da36572e82c",
+   "subject": "17",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26847200,
+   "sha256": "3f52c2b1b74e1befc90b09a7387c28c26fb91bead0b5a13c024152f2f3d82a39",
+   "subject": "17",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "c8ec5afcb870c186c8f89556ffaa29d989d2a3dd8fbbefba86444dd77485088c",
+   "subject": "17",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 28117200,
+   "sha256": "9e9b66277f5f368b7382fd37e07c7c57104582b533454b662c873b55072b57d3",
+   "subject": "18",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2007,
+   "sha256": "4e946df2d2b430daa57366cfac2f3d062ea5f88abf9c474bd2f917b74b37c175",
+   "subject": "18",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 27091800,
+   "sha256": "76ad9dd13b59954df2634f78e41b189b6c457881b0280383a3e876f581945b8e",
+   "subject": "18",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "637346a435a5269ffe51650f1a5cb0d44525d062947e736119b673ee4e579bc5",
+   "subject": "18",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 29112600,
+   "sha256": "9bac66928ab590cf9d01226386c2cbfe59e0f4ea4a7c48886d3224cba138b796",
+   "subject": "18",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2010,
+   "sha256": "c2a18dbaf694b88e4a4c9f0ac85e0e3e43e8a627c31c0cc07e003108640a3c26",
+   "subject": "18",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 32737500,
+   "sha256": "d64031642e57cfc00aad4d4db1987180e50e0478d37b46f2f76f2c7a9674ca01",
+   "subject": "19",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2012,
+   "sha256": "cc94fd48d518a845c3497b625e9851767da5d347eb874f6dd366b75da5b72e55",
+   "subject": "19",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 31032000,
+   "sha256": "c25e1ff9ecc827d74e04b0122312dee2a04285529842932cdbad5fe81ba19dd1",
+   "subject": "19",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2010,
+   "sha256": "f24c15c6aca459b768186916b4c91d311b6cb0089fe32873ec0330d502fa9851",
+   "subject": "19",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27035900,
+   "sha256": "19b96d47160a88a1ececacfadb79ef72d8f3f8b46caebc7f135803974a27126a",
+   "subject": "20",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "03b1b42e69e36aacd40685072f9f3224b73350002afb8bf2e53d047292441206",
+   "subject": "20",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 27057400,
+   "sha256": "0280f6d47f468667c42a07434bb711770623c041cb0acc90c1d48c7c7059d627",
+   "subject": "20",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "4236fd0a0620262397ce85bf06b0371eb9c480c45bae5d6b77cb9103ec0f79de",
+   "subject": "20",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26879600,
+   "sha256": "2ec09fe4ba7124fddd16726fff0430dd48985e98cc9711116bcd65c5f7a9fdec",
+   "subject": "20",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "39e98b7f9cfdafd2411f6bec2086634639337506d8e85bdff449c5bc90a1e239",
+   "subject": "20",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 27498700,
+   "sha256": "c261d9fc3f36c136e3552100a9d21013f6caed476c8e3cccc47bad89c1cbeee6",
+   "subject": "21",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "731cc3fcfd246e711e964933908af22b4cf3e567f8e3178c6c05562fa904fbe9",
+   "subject": "21",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 27103800,
+   "sha256": "693e306dc2f6af50d20fb35a4c83afc4d6c694ae10fe193c3e6f5401aba97be1",
+   "subject": "21",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "f58eafadb09bdd0e94b7cbcef97f959b17d911e8ac01b1559e927365883ecbd8",
+   "subject": "21",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 30503000,
+   "sha256": "53a29cbc041177b1bf6ec0205129fa64343f856a3a1344dcb7965f6aaf0b761b",
+   "subject": "22",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "d2f5f384ef97d40ad55c26b830fb0cc521ed68c55aa8be4e9874244633efd664",
+   "subject": "22",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.eeg",
+   "bytes": 29719000,
+   "sha256": "5643732f837226683ea21b764c3474990f6d6c06225e7854c1f27218a7386f80",
+   "subject": "23",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vmrk",
+   "bytes": 2011,
+   "sha256": "f4daa90c08bb08dd65f23f73dc407361dd5b39854866d26e2e50cf0612551596",
+   "subject": "23",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 26852400,
+   "sha256": "149f76dbab0b7e871981b679e8b209df49dafbe804df9919de181b516a225540",
+   "subject": "23",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "92d866f62f8adf80aed2fd1053ec07ea80de444d48c92f658c63dd8b79f7d4c0",
+   "subject": "23",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26989800,
+   "sha256": "0ac035f7c7ac797ba2f349c2c8307171e8eea402987fb35cfd5a98b680b50145",
+   "subject": "23",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "8f98fc090c9466fbf056ea5c1bc2316a573c8d2103b7ac2ed7dab7dce3c21416",
+   "subject": "23",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11)"
+  },
+  {
+   "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vhdr",
+   "bytes": 1625,
+   "sha256": "b5c40ee9fd6cf14b4be0ba015bc5550099facef8210754ab88de69848a0d9ba5",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.eeg",
+   "bytes": 27175200,
+   "sha256": "689a248f4793465a13b10cd09cd654b6c6ac2dd46ce425f9a29e8f2bb0ea1169",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vmrk",
+   "bytes": 2006,
+   "sha256": "4bede261c59b5de1e09167085a44eb22dd17440da81ee3b2851cf1dfe46b8e2c",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1617,
+   "sha256": "3ce191280e8b5a5712eba7a069a2f47e3ae125ff7e53a980a214e4ab5b96b8db",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26840900,
+   "sha256": "c81545c0fea2e14e4d4a642df5e0f7e5da7fb4702f484b1cb098b7164815cd21",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "f51fae536b90d01e8b4462a34121a3f5aa239ca36a5825bc517d14229aaf55e6",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vhdr",
+   "bytes": 1597,
+   "sha256": "30a3fb8d7525b78ecdd8eee4faa321639d81806f5ad8e44ad923243a2b7cabcb",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 36312400,
+   "sha256": "96e002aae729bb39480c3f99a1c13e0c87cb00e726b1e5b954277ee05ec1218e",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2004,
+   "sha256": "fd3a85fe3e952da9186c33d8911bc40d80f3015bd8e2f43cd5d99b20da1a4690",
+   "subject": "3",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vhdr",
+   "bytes": 1601,
+   "sha256": "a14d6b836bc2044f2355239ef44b12a3b924226142e5986eb6425d1e0e5f628f",
+   "subject": "12",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.eeg",
+   "bytes": 26926500,
+   "sha256": "c8578f9c6557e3fa18f4e728636c88c1d9d67386959294d487020e6777a1ad10",
+   "subject": "12",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vmrk",
+   "bytes": 2005,
+   "sha256": "14eeff334940a3f55b516dad88a5d6895f6d0aa4f881a9133f009fa69d5d7cd8",
+   "subject": "12",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vhdr",
+   "bytes": 1560,
+   "sha256": "1de19860ab565ad73f93052b3f0f456e6534ccddbde912adb0894e1087b206e7",
+   "subject": "12",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.eeg",
+   "bytes": 42864600,
+   "sha256": "0822fafbf15e5ef72fde23345015240397dd1e6c202d11b5c831417b056b13e1",
+   "subject": "12",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
+  },
+  {
+   "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vmrk",
+   "bytes": 2009,
+   "sha256": "a5d66c64a4986c11b58e5b05213250d1697243476694f6a11132e7c287c5a44f",
+   "subject": "12",
+   "how": "from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11); session was absent from the deposit"
   }
  ],
- "n_subjects_recorded": 23
+ "n_subjects_recorded": 23,
+ "revisions": [
+  {
+   "date": "2026-10-17",
+   "version": "1.0.3",
+   "added_files": 137,
+   "added_bytes": 1855363471,
+   "note": "Added the BrainVision .eeg/.vmrk of 61 deposited SSVEP headers and 5 absent sessions (sub-03 ses-03, sub-03 ses-04, sub-03 ses-05, sub-12 ses-04, sub-12 ses-05) from the staging copy the deposit was built from (MOABB Lee2021Mobile_SSVEP cache of OSF r7s9b /sourcedata/, retrieved 2026-08-11; copied Expanse -> Voyager 2026-10-16). Headers byte-identical to the deposited ones (66/66); the copy's ERP files equal nm000201 (274/274). Headers paired with data: 50 ch, 500 Hz; not paired: sub-07 ses-02, sub-07 ses-03, sub-07 ses-04, sub-07 ses-05 (deposited headers 73 ch / SamplingInterval 10000 us). Still absent: sub-01 ses-04, sub-01 ses-05, sub-04 ses-02, sub-04 ses-03, sub-04 ses-05, sub-11 ses-02, sub-11 ses-03, sub-11 ses-05, sub-12 ses-03, sub-16 ses-05, sub-17 ses-05, sub-18 ses-04, sub-19 ses-04, sub-19 ses-05, sub-20 ses-05, sub-21 ses-03, sub-21 ses-05, sub-22 ses-02, sub-22 ses-04, sub-22 ses-05, sub-23 ses-05; data of sub-09 ses-02."
+  }
+ ]
 }

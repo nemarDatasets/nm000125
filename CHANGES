@@ -1,0 +1,6 @@
+1.0.3 2026-10-17
+  - sourcedata: added 137 files (1,855,363,471 bytes): the .eeg/.vmrk of 61 deposited SSVEP headers and
+    5 absent sessions (sub-03 ses-03, sub-03 ses-04, sub-03 ses-05, sub-12 ses-04, sub-12 ses-05), 50 ch at 500 Hz, from the staging copy the deposit was built from.
+    Still absent: 21 sessions and the .eeg/.vmrk of sub-09 ses-02.
+    Not paired: sub-07 ses-02, sub-07 ses-03, sub-07 ses-04, sub-07 ses-05 (deposited headers are 73 ch / SamplingInterval 10000 us, not the 500 Hz originals).
+    No existing file changed; the BIDS tree is unchanged.
