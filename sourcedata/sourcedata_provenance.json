@@ -1,1972 +1,1977 @@
 {
- "dataset": "nm000125",
- "moabb_class": "Lee2021Mobile_SSVEP",
- "moabb_version_used": "1.5.0",
- "retrieved": "2026-08-11",
- "retrieved_by": "moabb.datasets.Lee2021Mobile_SSVEP.data_path()",
- "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-lee2021mobile-data",
- "license": "CC BY 4.0",
- "doi": "10.1038/s41597-021-01094-4",
- "naming": "upstream_filenames_restored",
- "n_files": 255,
- "total_bytes": 2400812972,
- "files": [
-  {
-   "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1624,
-   "sha256": "095a98d807e5809a20b78feb31dfbbce40e1f5fbc0f7e615f802142f923616e9",
-   "subject": "1"
-  },
-  {
-   "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1622,
-   "sha256": "12790b1ee6eb8bad1806fad148c8283bc727283107bce44d244d7f0ddba326ee",
-   "subject": "1"
-  },
-  {
-   "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1614,
-   "sha256": "07c616d45cc391e3ec5afab3d9358dd79308adefb64dae4dd1a960ed140c5130",
-   "subject": "2"
-  },
-  {
-   "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1603,
-   "sha256": "085f9bd930bd309c46047b651e270f3c6b1a3a16b1e58ae808e2280f644ef223",
-   "subject": "2"
-  },
-  {
-   "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1608,
-   "sha256": "73e6eb90b7291c2489cd5baf4251681fb46af9598d3fbf4dc1ee11a4ff165120",
-   "subject": "2"
-  },
-  {
-   "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1599,
-   "sha256": "5741bd06c42346a0f0935fa09390e82f8cf4d66bf2d8409409ea96e7d9c1f85d",
-   "subject": "2"
-  },
-  {
-   "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1625,
-   "sha256": "5837699ea017b751c79fd7b08a11c2b416c7638923e91b33131c3309e60ca234",
-   "subject": "3"
-  },
-  {
-   "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1600,
-   "sha256": "99d7c65fdd2a2ef5bd4ae238461d8e26cd09a13cde891c6dae4cb537d372f293",
-   "subject": "4"
-  },
-  {
-   "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1606,
-   "sha256": "2ab249c451bcafdf373882418978c079eb8b73adb526aa3849cf1bc745c82853",
-   "subject": "5"
-  },
-  {
-   "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1607,
-   "sha256": "6f862a1a6d6fcac893e18cdf155a47e170c4cdedeaeface2b828c7997175ab5e",
-   "subject": "5"
-  },
-  {
-   "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1600,
-   "sha256": "74051ffb202530e4ce48bc1c0bde0d3c65f23e59c273a1b419b108df192ef2c0",
-   "subject": "5"
-  },
-  {
-   "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1602,
-   "sha256": "d65bc532628e2e18c7d704ebd550cfe51cab19db435b9bda5ab279cf85e17216",
-   "subject": "5"
-  },
-  {
-   "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1612,
-   "sha256": "f12f8fc05382242e58fb46f6f8466ae4d4c058239b842cd3dd0a2b8efbd56ef0",
-   "subject": "6"
-  },
-  {
-   "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1616,
-   "sha256": "7c67ee064f9947974295c7de2d7116fceb353e3109e5b89f2c7a94f786aab751",
-   "subject": "6"
-  },
-  {
-   "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1619,
-   "sha256": "66e8d8dfd01f9e6ecdfa6ffd6dfc3f36e07ed10c19398610d37db0ca266f097e",
-   "subject": "6"
-  },
-  {
-   "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1595,
-   "sha256": "f9581e20aa1851191fbab4a461cfb7056e81c6317d4d5857f34f29908c9488ec",
-   "subject": "6"
-  },
-  {
-   "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1593,
-   "sha256": "1e571d4a4d6f8036e5777af0dac0f391d2af0af99dccdb6cbe39819e98742520",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe669b31762001113804d2/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1601,
-   "sha256": "784ecd43a85945b8b068de6c6f497535f1fadae2dc27aa2a39c34a0a248d21ce",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe66c90c4cba0114bc6598/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1585,
-   "sha256": "01e0d11d900214ff165884cd24d2679d56eb536984b331c24765202d6bbab901",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe6645317620011537e675/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1593,
-   "sha256": "1836e2b4e68ced2ea875dc90fa024ec25ee307cda62355b9360a0ac91a436bb9",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe661ac7a976010d9db8a8/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1591,
-   "sha256": "58266dc5a8d53d89f7ed3b83e7ce229c68966efeedcfebb890d34eb814fcca67",
-   "subject": "8"
-  },
-  {
-   "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1593,
-   "sha256": "cf8dd1ae896e244d350d381820120982824b5a8866054db53caf38050b009096",
-   "subject": "8"
-  },
-  {
-   "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1602,
-   "sha256": "6d3de8fc61266e50beb1a59cad4df77dac960e517e86ef3944dea27ccdb8db69",
-   "subject": "8"
-  },
-  {
-   "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1591,
-   "sha256": "0886b36cbe49a2830ac977399228539f4b4ef5fafe3d72e409b4308bc521c04c",
-   "subject": "8"
-  },
-  {
-   "file": "sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1584,
-   "sha256": "43e4b6fb3a719cccb3b76493fb72a9af91fb78340cea0a5b7bda4fd59a9d945a",
-   "subject": "9"
-  },
-  {
-   "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1593,
-   "sha256": "171bde88765c4440024c55e20ab20092ed0e95b511f064105096bb51db25b29b",
-   "subject": "9"
-  },
-  {
-   "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1589,
-   "sha256": "79b2382f5430e11a5cf00799a9c62e5ee69410b5cf69f4c2aed1e5c23708e7ac",
-   "subject": "9"
-  },
-  {
-   "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1599,
-   "sha256": "abc67d5c656d09ef780b48cdcf192d5a096799e27832153eb73a174f732c6833",
-   "subject": "9"
-  },
-  {
-   "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1606,
-   "sha256": "a76a75091612475d2f20a602cfd3aa51d80cbc024765d1dea7476ef487f8dedf",
-   "subject": "10"
-  },
-  {
-   "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1608,
-   "sha256": "69c22abc6d682ff76393fbd79f5874184502b127f5c0df8fdf8fd44215d00236",
-   "subject": "10"
-  },
-  {
-   "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1609,
-   "sha256": "dd0000415c484714c96944a8b169e1def373e3975954ed280dd8914aa5cc62cf",
-   "subject": "10"
-  },
-  {
-   "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1602,
-   "sha256": "f768a9c10f506e571eb6bc3e56084724ec3d26503bc26e564080a2460c07a279",
-   "subject": "10"
-  },
-  {
-   "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1598,
-   "sha256": "0b4f136efd328edd624b48f32a90b4b8108b9ad9ccb1f40522e03e5b8532d4fd",
-   "subject": "11"
-  },
-  {
-   "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1596,
-   "sha256": "80b7f9b4b837ba15a2648dec7726b4d78878da3fc981055ef6973e9ef92d9d11",
-   "subject": "12"
-  },
-  {
-   "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1605,
-   "sha256": "040050d409dec646212960aec1bbd1bbbcd9a7754a8ea5eb3223210efbbb4225",
-   "subject": "13"
-  },
-  {
-   "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1606,
-   "sha256": "a76f7a964eeee1f746d00005ffd75397146a6cd50307ad67e547dc07db2c4b11",
-   "subject": "13"
-  },
-  {
-   "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1600,
-   "sha256": "f82ad6004c000a554a761632e05f1d7d2381d8467cb0278174da1d74a409fb6e",
-   "subject": "13"
-  },
-  {
-   "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1609,
-   "sha256": "2ea12d3e3b37e686ffad9310635c6772c58118b60d2377cbce83d9043d994d27",
-   "subject": "13"
-  },
-  {
-   "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1606,
-   "sha256": "74b29126d99a91eb6443563bb4bc19263190201b2c2bf4b69185d1ecba229846",
-   "subject": "14"
-  },
-  {
-   "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1589,
-   "sha256": "5261c227c96de18e8a3f7642aab29291fdbf05412381a66793b7ad20641d4be3",
-   "subject": "14"
-  },
-  {
-   "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1613,
-   "sha256": "49271363f7237656b0b00608367c9e7b2833a01ca1d7f0e43716911605f36a8d",
-   "subject": "14"
-  },
-  {
-   "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1600,
-   "sha256": "10bbace219fc89841cb9219eb45c44dddab2ce7329ac6077cd3d9d846689b877",
-   "subject": "14"
-  },
-  {
-   "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1612,
-   "sha256": "1465facc95d57991c3353762db5818345de07b4ed88aa2a01474f4c4df7ba9f3",
-   "subject": "15"
-  },
-  {
-   "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1601,
-   "sha256": "7157530aa7b5e90d94fdd4ecc4ef6f3e71acc7f9bc2e2452410b9c06249a88ad",
-   "subject": "15"
-  },
-  {
-   "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1599,
-   "sha256": "b7f4526e6c0e2ed3b991645fb58afce15f4e01bd92f1f4faab7fa75cf40bdce8",
-   "subject": "15"
-  },
-  {
-   "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1589,
-   "sha256": "d2f4ae323c251b8df4b2a045e139dce777922db6673270371dff0ea430d35513",
-   "subject": "15"
-  },
-  {
-   "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1600,
-   "sha256": "aeffae89127bb0efb440e637dddaaea6d2a6ed55aac09d887416d3647b26348e",
-   "subject": "16"
-  },
-  {
-   "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1608,
-   "sha256": "35943dcde53a19e040137d90e54275ade40e0d9b7a6f5497d307e5fc6d9c7fd1",
-   "subject": "16"
-  },
-  {
-   "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1610,
-   "sha256": "183d81036e26685253bb6acb8b84dd0312418f398671dedd92084475710b5175",
-   "subject": "16"
-  },
-  {
-   "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1618,
-   "sha256": "829d2d3f5055b9191233f32d627fbbc418ed359f7bdd118f6867484c08be40b1",
-   "subject": "17"
-  },
-  {
-   "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1624,
-   "sha256": "c9572bda3c5cbb1dadf6a9afe556c66bb73042daf9943d045ea60218d57d8f3f",
-   "subject": "17"
-  },
-  {
-   "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1622,
-   "sha256": "ef994c088a0f0dfa7f296531a0b3380529dddf5f6bc7fe5c693c507181d0b55e",
-   "subject": "17"
-  },
-  {
-   "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1609,
-   "sha256": "032f1ae37c593a7e0453b9784cacc000cfca1ad2346b776d289715ac768ee579",
-   "subject": "18"
-  },
-  {
-   "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1608,
-   "sha256": "7612d07ca1056f203cb6acceabd830788bd05750c5cff39fd8ce4a2e345c31fd",
-   "subject": "18"
-  },
-  {
-   "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1602,
-   "sha256": "88af7789f80074891761bd4078ade3efd87a6d73e5cbfcc6b070f46e0c3fcd33",
-   "subject": "18"
-  },
-  {
-   "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1599,
-   "sha256": "a8346432a0dafc90ffb719de2aa838e288dbae0dde81b31d68f4c45ecdd7949e",
-   "subject": "19"
-  },
-  {
-   "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1579,
-   "sha256": "5bd8abe634cf062f8a33284e8db0273e1131e11359837040b15bf461f54a56c4",
-   "subject": "19"
-  },
-  {
-   "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1612,
-   "sha256": "9312c24d4486a6e43b62b347ac294b331aa07db64c453d7c391c13d7f877bf78",
-   "subject": "20"
-  },
-  {
-   "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1615,
-   "sha256": "6125b150771e2953c3d6dc8e16676579f60f29f451ca6631f03cfb11b88b28df",
-   "subject": "20"
-  },
-  {
-   "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1597,
-   "sha256": "0de6e02d268ba8075a7764dcd940a7afbf912d4f3bd49f6ebd22bcf5fa67880f",
-   "subject": "20"
-  },
-  {
-   "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1623,
-   "sha256": "b559c7ddfdda8a8a95e658e6ac530bff5461a2cdbb86ae1595fa8b5af7cac313",
-   "subject": "21"
-  },
-  {
-   "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1598,
-   "sha256": "12b089caa86bef6a1a52d6d123a7bf6dd464d81ebe9da70ce66185da98d1608c",
-   "subject": "21"
-  },
-  {
-   "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1604,
-   "sha256": "38ac5f11963554c6648525f4851f9113e3ad523a9947a2809da6be5a8ff44455",
-   "subject": "22"
-  },
-  {
-   "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1600,
-   "sha256": "c9dfac9989fce71264e06ba7490647cb397792f3bd538812de8f3433138721e7",
-   "subject": "23"
-  },
-  {
-   "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1584,
-   "sha256": "fcee6f4addb1474a96b292a0272af4427a5162d7111c4d36a6f30af15600b26e",
-   "subject": "23"
-  },
-  {
-   "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1596,
-   "sha256": "b08de02631027465dfcf75d168ca09f64e893afd28f7e522ef89908f64d423cf",
-   "subject": "23"
-  },
-  {
-   "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 26863900,
-   "sha256": "bade259226acbd98d2384dd2ff36191c072dea4790b1c353e4266712f24a29d9",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe669e317620011537e736/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "7b3bf652212697cfce7db0fd819cb01dcf7638682bbcf3c2c29d1d0b728ea768",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe669cc7a976010e9dbe67/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26865400,
-   "sha256": "5324ff7dddac3aab5ca4113dae08ef3f5aefbfe776eb2c330462634ab2af0901",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe66c90c4cba0111bc7346/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "923e4292529cbf364ff152b0d8084df6280c829244e7156cb3d0f6af7945aae6",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe66c4c7a97601129dd2bd/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26623600,
-   "sha256": "e714f2f142317b87a1cbdb6b05a3e39378b870601e9ad1e7fed0a1b376ed89ab",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe6649c7a97601119dc619/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "3f5a152c5f92ebea946e1b1a0e1ccda9fd5da8446353e0a78510020451410f1f",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe6646c7a976010e9dbdcf/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 26779300,
-   "sha256": "dd09be551aeaaa2633382d0df0d25f8c06191b15b9dd36aff98043d16cb5b688",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe661e317620011537e603/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "cb6a630d2bb3c97098e41f6f0fc72a8926d60b0e897bbeacc89097c5b1803ed9",
-   "subject": "7",
-   "url": "https://osf.io/download/60fe6618317620011537e5e6/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27263300,
-   "sha256": "5e94eabd6491cdc24fa43cbb28a21f47513520f3ac7dcc00aa338625d1be9a64",
-   "subject": "1",
-   "url": "https://osf.io/download/dg4e5/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "40fceb050638ba766aeb2e1092ae6f07a7377be5625792899e6b2f5c43e96ced",
-   "subject": "1",
-   "url": "https://osf.io/download/hbqjf/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26578500,
-   "sha256": "55e04a0dcc5f8d945706b94a6c67d1f9080a68da714fb17f0d16bda8e73f5c2d",
-   "subject": "1",
-   "url": "https://osf.io/download/60fe6589317620011537e407/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "0bb7db557bb525b4d11ece5688b1730187d2583bbe5c045fefdb838e91779691",
-   "subject": "1",
-   "url": "https://osf.io/download/60fe6586c7a97601119dc392/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 31667700,
-   "sha256": "d3e0414d97afc585a9ead0e7d839f0a316ee1a97f8834460cf31e0fb83c17f26",
-   "subject": "1",
-   "url": "https://osf.io/download/60fe660dc7a97601129dcfcd/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1611,
-   "sha256": "078812b05969c826dfcb264e8c516bebc86f31bc67a4e28f8bfc7e1991009f5f",
-   "subject": "1",
-   "url": "https://osf.io/download/ny2e8/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "88189f855c22829d051da4e5e2238a3cbb27c3f7ffe645e0a1c11be0c63b589e",
-   "subject": "1",
-   "url": "https://osf.io/download/60fe660b0c4cba0115bc6db0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 29152600,
-   "sha256": "eff22aa2defe9f32fe16ddcc26e5f4e5c783aa9449ed14d9fd4430552bb1980e",
-   "subject": "1",
-   "url": "https://osf.io/download/60fe6570317620011637eb2f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1617,
-   "sha256": "90c68b78ae7f25242ce3adb4aa54c94b6666a076d1c4e04d2fb74ffc752b0e8a",
-   "subject": "1",
-   "url": "https://osf.io/download/60fe656fc7a97601119dc34a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2006,
-   "sha256": "40fb062739399113ca0afb3d75843fefa7443dcacdddaf812c5ad6fe0b22bf88",
-   "subject": "1",
-   "url": "https://osf.io/download/60fe656b317620011537e396/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 26697500,
-   "sha256": "d7772ffd4f3e2717a1745149e73b0a3e430480985857ea7da2a35fc9d2951982",
-   "subject": "2",
-   "url": "https://osf.io/download/60fe659a0c4cba0114bc61e2/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "c927b291082e9d2d00bf5273e7b4c892d9d5fe3fb6faba2a19f760fb3a4026fb",
-   "subject": "2",
-   "url": "https://osf.io/download/60fe6598c7a976010d9db82c/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26651700,
-   "sha256": "20b27ef903bbef1993bba6943ef60b1cc7ce0be5431b83a641af391a901c2f32",
-   "subject": "2",
-   "url": "https://osf.io/download/60fe65c5317620011537e502/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "f253e3dc497ebef3d0ab148858ab47f242889b19ec4c400e1e0f40935d231434",
-   "subject": "2",
-   "url": "https://osf.io/download/4e79f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 27250000,
-   "sha256": "99b9a9e161f543cb5367283c3ac989c75bd1cd3197d1086a4e31b1e470be5419",
-   "subject": "2",
-   "url": "https://osf.io/download/60fe65f10c4cba0115bc6d08/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2006,
-   "sha256": "97f2597eb34e48dc93dbbc6c59cd8e6906b293fdaa774d54b19055c6ef94e3b5",
-   "subject": "2",
-   "url": "https://osf.io/download/60fe65ee31762001113803e5/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 31714100,
-   "sha256": "335f610a800ebafe6861f58b6de96346ce4fbd9fb97e65126043431315052bca",
-   "subject": "2",
-   "url": "https://osf.io/download/60fe656e0c4cba0115bc6a49/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2008,
-   "sha256": "a63b05378c4ed1af5950c42473e85624a5407817b84c0d2daa817e1df2105e66",
-   "subject": "2",
-   "url": "https://osf.io/download/60fe656d31762001113802da/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27045200,
-   "sha256": "05c0893289835f5a5e82587a03df298d441c2afab816dbb4d74e56bef5141a5c",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe67610c4cba0111bc746c/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "45974af76a9b4917d43ec5dbf24e2cfa532f93ce61a8fbbfebd0b19bf73b3012",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe67600c4cba0110bc65b9/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 27175200,
-   "sha256": "689a248f4793465a13b10cd09cd654b6c6ac2dd46ce425f9a29e8f2bb0ea1169",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe66e2c7a97601119dc797/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1625,
-   "sha256": "b5c40ee9fd6cf14b4be0ba015bc5550099facef8210754ab88de69848a0d9ba5",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe66e0317620011537e7ec/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2006,
-   "sha256": "4bede261c59b5de1e09167085a44eb22dd17440da81ee3b2851cf1dfe46b8e2c",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe66df3176200111380546/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26840900,
-   "sha256": "c81545c0fea2e14e4d4a642df5e0f7e5da7fb4702f484b1cb098b7164815cd21",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe678ec7a976010e9dbf99/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1617,
-   "sha256": "3ce191280e8b5a5712eba7a069a2f47e3ae125ff7e53a980a214e4ab5b96b8db",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe678c0c4cba0115bc73ca/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "f51fae536b90d01e8b4462a34121a3f5aa239ca36a5825bc517d14229aaf55e6",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe678c0c4cba0114bc67a0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 36312400,
-   "sha256": "96e002aae729bb39480c3f99a1c13e0c87cb00e726b1e5b954277ee05ec1218e",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe671f0c4cba0110bc6583/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1597,
-   "sha256": "30a3fb8d7525b78ecdd8eee4faa321639d81806f5ad8e44ad923243a2b7cabcb",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe671cc7a976010e9dbf0e/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "fd3a85fe3e952da9186c33d8911bc40d80f3015bd8e2f43cd5d99b20da1a4690",
-   "subject": "3",
-   "url": "https://osf.io/download/60fe671c317620011637f2bb/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27741100,
-   "sha256": "09aa7bdf2103cea7b8886197dfb84ab487eed1c43d3b780ec5a9fab0bd38ba89",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe6651c7a97601119dc629/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1606,
-   "sha256": "da917cf58c98b3ab5a959b76b56b55ac273342c360b436450c51a9dc93c9d71d",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe66500c4cba0114bc645a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "71a465a0527c4e5eae5fd5963626e56ae2d07910763145072ea0a5c258a061d9",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe664c3176200111380476/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 27709400,
-   "sha256": "b099a28f9ffccd9db584e5f9a527d4a732accfa126e55bba7fc880d7974157d4",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe6638c7a97601129dd095/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1610,
-   "sha256": "a5efe3ca32a5b170e902f3e6cf24c884bae6855df986052b3f011751c62ac498",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe66330c4cba0115bc6e60/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2006,
-   "sha256": "d1ba6f0e13799c013f87db2df42aa3be9b897dccfd8265df12e265a24defdb54",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe6635317620011537e643/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26948600,
-   "sha256": "98552a19031889fd8e62d658b4ecb599c386c969bbc4db5534be7e746b61d129",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe668e0c4cba0114bc64ee/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "a5b55f25b2444075ffba057e278a75d8fbdbf7f7fa62f0b2662b289bac8d4403",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe668c0c4cba0111bc72f4/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 36701600,
-   "sha256": "60d9d3aefa13f21aa1b37fdab72027fc74c1c43a8bd406adf2240c1aedae2385",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe66b9c7a976010d9db925/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1587,
-   "sha256": "b89302e2540c0c2ff7f16f9ce40419a53cb74a146f79f962d27027c56dd64325",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe66b7c7a976010e9dbe94/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2009,
-   "sha256": "6e019c7ff773db0d2ee46f21e5e683ba02ab3e3055f7fbd4e825b7230080b523",
-   "subject": "4",
-   "url": "https://osf.io/download/60fe66b8317620011637f134/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 29801100,
-   "sha256": "619383d4ce737e84e09290f8f13f65a4c53412bec96d2b70a82754b6f2a0f511",
-   "subject": "5",
-   "url": "https://osf.io/download/60fe51ef0c4cba010bbc5284/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2010,
-   "sha256": "bc56d93a0ed8842faa8b2794076b7dead76750f59df4d281e6267e78e076d58b",
-   "subject": "5",
-   "url": "https://osf.io/download/60fe51ee31762001053806c0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 28662200,
-   "sha256": "009c8c874bca3893d9a3a33f6705c288e208efb6b3ee771e5ee992577ab126e8",
-   "subject": "5",
-   "url": "https://osf.io/download/60fe521c317620011037d309/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2008,
-   "sha256": "89d2e724f670937a744407dfa0724f994df554fa827ff6d8f4919b0f2dcd8d72",
-   "subject": "5",
-   "url": "https://osf.io/download/60fe52183176200106382b1a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 27112400,
-   "sha256": "c82558594a1f91ff9154e20ca7914fff6d3bde8db306a023bd85a3e8310ca586",
-   "subject": "5",
-   "url": "https://osf.io/download/60fe5249c7a97601049deea0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "c8ba890d991c5295d84b47b2b39a875ad4087700328ac79349bbbd37c67b7263",
-   "subject": "5",
-   "url": "https://osf.io/download/60fe5245c7a97601039ddb02/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 29112600,
-   "sha256": "9bac66928ab590cf9d01226386c2cbfe59e0f4ea4a7c48886d3224cba138b796",
-   "subject": "5",
-   "url": "https://osf.io/download/60fe51c30c4cba010bbc5222/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2010,
-   "sha256": "f0042cdcfe6c448c9c2bb28f2c6a38babe457432fe24b0941a3a4a4f8b74c9b4",
-   "subject": "5",
-   "url": "https://osf.io/download/60fe51c331762001053806a3/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 26892500,
-   "sha256": "c72e22ed9739743058e2cfcb305d1077a42a08ef18b4a16e9efce7c609228df7",
-   "subject": "6",
-   "url": "https://osf.io/download/60fe50fe0c4cba0106bc8164/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "d2e03d449ad5c2b31ce838452754480a42c3efdbaad1af91d6bb2df4fd6e7ebb",
-   "subject": "6",
-   "url": "https://osf.io/download/60fe50fa0c4cba0102bca009/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 27253300,
-   "sha256": "1a9d58319fd37f00ee9c8388dda985e5bd2ed158c8a33d8dae35c80b0ae1bf4e",
-   "subject": "6",
-   "url": "https://osf.io/download/60fe5114c7a97601039dd77d/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "8724f3d79182b91e15f53b2f3c25593030dfe856dc71cdd9649862b110ac8566",
-   "subject": "6",
-   "url": "https://osf.io/download/60fe51123176200106382926/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26973800,
-   "sha256": "2c13c730091f216cf85739209312fadba688902f8c88bf06497716fa9ea397c8",
-   "subject": "6",
-   "url": "https://osf.io/download/60fe5153317620010a3805f0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "b30c3ff75c28e789f6902c059080238efbde6092b8e5f1562223b7f7ba1da43c",
-   "subject": "6",
-   "url": "https://osf.io/download/60fe5152317620010a3805e5/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 29369700,
-   "sha256": "878f6fa6622d1f69002008a7d87cd3519e2f78c2d80966a3ea2f19c78dacc82a",
-   "subject": "6",
-   "url": "https://osf.io/download/60fe516d0c4cba0106bc838d/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2006,
-   "sha256": "3bd493e32b8ebb5c5740b7a9690679698278cfc4e125e867580627b2211304ea",
-   "subject": "6",
-   "url": "https://osf.io/download/60fe516b317620010a380690/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 26945400,
-   "sha256": "afe56876c08c86befeb1c4505166000e6adb3f6b35fd2c70443e94dc348a946e",
-   "subject": "8",
-   "url": "https://osf.io/download/60fe4ed7c7a97601039dd091/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "70a7a845dab6a55e0e8e9d848f8a9f7c6381d8763384c997ee5f6cc33b893807",
-   "subject": "8",
-   "url": "https://osf.io/download/60fe4ed3c7a97601039dd087/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26911100,
-   "sha256": "090185ead0e4bff3f68488572cd3e80939447dcdbc8d120947b541ca8a03b6fe",
-   "subject": "8",
-   "url": "https://osf.io/download/60fe4eeec7a97600fe9dc88a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "550c1bfa9ccb8fddf46a8839695da025d2ac363a2c57cfdd50d5619228806367",
-   "subject": "8",
-   "url": "https://osf.io/download/60fe4eedc7a97601049de005/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 27029700,
-   "sha256": "fa5aa066bc11e775fea426c98e43982cf2f9fb5d623f06e01ef85bc63cf05551",
-   "subject": "8",
-   "url": "https://osf.io/download/60fe4f17c7a97600ff9dd743/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "e28c9c1192e7ee06a623f2244c62d950749e00f7e13925289251f04ac68253d0",
-   "subject": "8",
-   "url": "https://osf.io/download/60fe4f16c7a97600ff9dd73d/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 26822100,
-   "sha256": "bcd81d9c5b5eac8d2af1f14ed493148965ac370e7bfa21c3f483c441998ae352",
-   "subject": "8",
-   "url": "https://osf.io/download/60fe4eac0c4cba0107bc9407/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "41073b052ed8d48742ba138c8c6ec30958ee832731993d28f1324fd0efa2af7e",
-   "subject": "8",
-   "url": "https://osf.io/download/60fe4ea931762001063825b3/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 26893800,
-   "sha256": "395c1f2a4fef37cc2f44794d5719c422c501cb6872cfc8189c506b2f5a221a87",
-   "subject": "9",
-   "url": "https://osf.io/download/60fe50d1c7a97601049de7f7/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "e1199f7d73a786bbc1564b380fe67a9badd59a21c1d7ddebbb123ecab2272781",
-   "subject": "9",
-   "url": "https://osf.io/download/60fe50cf317620010b382183/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26969000,
-   "sha256": "c77c7c9c9e1518c4c6d48b26d981743b2826572e125738a3d9e6845156ae95c9",
-   "subject": "9",
-   "url": "https://osf.io/download/60fe50210c4cba0107bc98f6/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "45acd8712f09dc19318114c4608fdd4be216f29f3f643ae89b6978a6f10df523",
-   "subject": "9",
-   "url": "https://osf.io/download/60fe501f0c4cba0107bc98e6/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26823600,
-   "sha256": "eb60f0f9428e0956d8a321a6983c8d8c2078604fd09ead871c12238da9d6fb4d",
-   "subject": "9",
-   "url": "https://osf.io/download/60fe508b317620010b381f0f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "74afb6c56000d1f56bce9e1a2beec0c2abc74028b2422c4d4e433f446f723ca2",
-   "subject": "9",
-   "url": "https://osf.io/download/60fe508b3176200105380561/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 26752800,
-   "sha256": "a7068e26db175f3cd3a56d45ae14a307195f39f5ec78aba126537560efa10023",
-   "subject": "9",
-   "url": "https://osf.io/download/60fe504ec7a97600ff9dd8e0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "8467ac420c30c2c84e0d04d6f97ba1a582d5369b3155a2c32d3a59448ba765c3",
-   "subject": "9",
-   "url": "https://osf.io/download/60fe504bc7a97600ff9dd8d8/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27536000,
-   "sha256": "422b82456d91478a23e1d90a51eaa314ee5a68c77c65c062a36d469c8f92246a",
-   "subject": "10",
-   "url": "https://osf.io/download/60fe4ff20c4cba0107bc9858/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "6226ca82f59b5dcd97724a682c83b7260a98bc3dfc7423e8a3651ffeb5e83fb5",
-   "subject": "10",
-   "url": "https://osf.io/download/60fe4ff1c7a97601039dd2dd/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 27043100,
-   "sha256": "43a017a2c915e0dcb10523d97b6e2d4afec1a12855118b71d22ce1cc138dadce",
-   "subject": "10",
-   "url": "https://osf.io/download/60fe4fb20c4cba00febc8517/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "d766c51eb0db06667197fbce766035549a8681842c15d29917108801dac4de78",
-   "subject": "10",
-   "url": "https://osf.io/download/60fe4faf317620010a37fff5/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26874500,
-   "sha256": "d78e438da54c962c2d1463a5323224f7ae144bc26558786a2a84e545a3b69cfe",
-   "subject": "10",
-   "url": "https://osf.io/download/60fe4f880c4cba00febc8502/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "d5f8978d5170f814fd78699f5ee2d31ef19ad0d504ce20809616d1dd21dbce1c",
-   "subject": "10",
-   "url": "https://osf.io/download/60fe4f85317620010b381ad7/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 26815400,
-   "sha256": "a7fcba67e81c4f01d318e91d8a5ed4d708a80d00c43c8d5e7ef2f4530d8f7b49",
-   "subject": "10",
-   "url": "https://osf.io/download/60fe4f5c0c4cba0106bc7bef/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "becf9aa870794bb2b233a479cc9b87336933eaba7329e24b37c3de0377d7d090",
-   "subject": "10",
-   "url": "https://osf.io/download/60fe4f5c0c4cba0107bc964d/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 28770500,
-   "sha256": "58ca9afc7f371d3169e672b80f5deda0c614daaad88bfe480ca19a7788a2869f",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe6597c7a97601119dc3d4/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1598,
-   "sha256": "5940b42f8be6b468b4d645d6e21dc5fbd4988ed59e4265a6f4bac9aba135bcb0",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe65950c4cba0110bc6446/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2006,
-   "sha256": "12a8b52f82008610ad3642fb8dd5b3b5bcbef828a91503dd3b50db4538606589",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe6593317620011537e432/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 28099600,
-   "sha256": "be57239a2b77709774cded049fdb89757e88a463af29a62a443d75165e023f36",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe65ad317620011537e484/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1601,
-   "sha256": "ab4db6763993ca5dcd45a0c71e946c0820f5a2247e2a9f08b691d662c24b2449",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe65a9317620011637ec5e/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "1e0290d8569246681e85ef2e707befc7d90e20d47d6348f74a8edb25e7296451",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe65aa0c4cba0111bc7186/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 29851200,
-   "sha256": "8d36192a9491bd0cd59badbd468d0d431cd20297785ddb0218c5632b84efe47b",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe656c317620011637eb1f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2008,
-   "sha256": "6fc2662fc4897633d0ea9b573b41eb65ec356ba488796941f2ad47153cc30483",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe656b0c4cba0114bc613a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 30217400,
-   "sha256": "1f5f541c6356443bb6175b007039d1a6a8d12a0256e8c8b217edccd9d7a7c238",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe65ea317620011537e56f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1596,
-   "sha256": "72e210eb2bdfc7aaa4c5ee477c252ae9270648f50b4d54515224b36a0424b6e0",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe65e7317620011637edb2/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2006,
-   "sha256": "81e00846690de957288a93b91a248d95bd18d3a2ccb90b874dc3b534c21ac6ad",
-   "subject": "11",
-   "url": "https://osf.io/download/60fe65e40c4cba0115bc6cb8/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27368300,
-   "sha256": "f28a3fcc001618f161fd9a46142bd22b5976c7cdec6cd8ad262e63d5c8cb6672",
-   "subject": "12",
-   "url": "https://osf.io/download/60ff5f940c4cba016bbc8cc5/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "dbcc2fa160be326c505efbae4d8fb2be0f0a688fbec06a1180d3881555e84f4b",
-   "subject": "12",
-   "url": "https://osf.io/download/60ff5f9231762001873804aa/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26893700,
-   "sha256": "6c8d8b2e584fe34933581cff574b8f049e280c5adfe4687cb2e661cbfd0c864c",
-   "subject": "12",
-   "url": "https://osf.io/download/60ff5f860c4cba0173bc986c/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1608,
-   "sha256": "ad5043485704ba5fef2148eda8306251be1731681f4debcddd833f289571cab2",
-   "subject": "12",
-   "url": "https://osf.io/download/60ff5f8531762001863820a1/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "080f67981f63c017351de0061b7bd9c7af8df8096bcdb5c9db23b4cecf92a407",
-   "subject": "12",
-   "url": "https://osf.io/download/60ff5f85c7a97601889e00d0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26926500,
-   "sha256": "c8578f9c6557e3fa18f4e728636c88c1d9d67386959294d487020e6777a1ad10",
-   "subject": "12",
-   "url": "https://osf.io/download/60fe533a0c4cba010cbc581e/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1601,
-   "sha256": "a14d6b836bc2044f2355239ef44b12a3b924226142e5986eb6425d1e0e5f628f",
-   "subject": "12",
-   "url": "https://osf.io/download/60fe53360c4cba010cbc580f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "14eeff334940a3f55b516dad88a5d6895f6d0aa4f881a9133f009fa69d5d7cd8",
-   "subject": "12",
-   "url": "https://osf.io/download/60fe5336317620011137d6c7/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 42864600,
-   "sha256": "0822fafbf15e5ef72fde23345015240397dd1e6c202d11b5c831417b056b13e1",
-   "subject": "12",
-   "url": "https://osf.io/download/60ff5fc40c4cba016bbc8d0c/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vhdr",
-   "bytes": 1560,
-   "sha256": "1de19860ab565ad73f93052b3f0f456e6534ccddbde912adb0894e1087b206e7",
-   "subject": "12",
-   "url": "https://osf.io/download/60ff5fbf0c4cba0173bc9956/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2009,
-   "sha256": "a5d66c64a4986c11b58e5b05213250d1697243476694f6a11132e7c287c5a44f",
-   "subject": "12",
-   "url": "https://osf.io/download/60ff5fbf0c4cba0173bc995b/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 26866000,
-   "sha256": "0b39c7834d5dcf58e15a41ee37a77e0e87bba0eb828866edd3ac973aa9aef051",
-   "subject": "13",
-   "url": "https://osf.io/download/60fe531d317620011137d688/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "28baa91810858db1dccba7bb9db33ceb17213da186e5554e642079b58d74b63f",
-   "subject": "13",
-   "url": "https://osf.io/download/60fe531cc7a97600ff9ddd99/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 29759200,
-   "sha256": "c24ea7acdf484ce60541f0f8d2a29840378565eefc5c922547b9aafecff920d1",
-   "subject": "13",
-   "url": "https://osf.io/download/60fe5288317620011137d49f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2011,
-   "sha256": "6da7ba9b89f00aa02ba2c705fd640f7c7e0f7ac8ce5cf0a5c324d382438ea7f0",
-   "subject": "13",
-   "url": "https://osf.io/download/60fe5287c7a97601049def76/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26867000,
-   "sha256": "1779aa713c4e861f3c3f3f04179687e85e943c0660584bd76e69476b77d81011",
-   "subject": "13",
-   "url": "https://osf.io/download/60fe529e317620011137d4dc/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "e66f1957ed2fb5d5f29634415beeb8440428e4e10fbf1c1d5c631889c885aa16",
-   "subject": "13",
-   "url": "https://osf.io/download/60fe529a317620011137d4cd/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 26821800,
-   "sha256": "ed82e27b324e56f8ef8736252597d0b7c030a83226475c5d922b807dc700c6ff",
-   "subject": "13",
-   "url": "https://osf.io/download/60fe52c90c4cba010cbc566b/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "f8ded2fe02c3087c574f89ce7f43682d72a021f73f7d4f1c9939484d7c78a5c2",
-   "subject": "13",
-   "url": "https://osf.io/download/60fe52c80c4cba010cbc5666/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27058100,
-   "sha256": "f592e28f4b07eff443114927a8fb820c44747b34dc9c1f465863846efb48a8e5",
-   "subject": "14",
-   "url": "https://osf.io/download/60fe6584317620011637eb87/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "bf0917bda6166f087704e20896da31ca6060950cda453f0740d2c8bfebc34130",
-   "subject": "14",
-   "url": "https://osf.io/download/60fe6582317620011537e3f6/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26792200,
-   "sha256": "5bb3a30913b570c63d3c1b91b9778e7b6f3b7a329d21b35046494269d3395386",
-   "subject": "14",
-   "url": "https://osf.io/download/60fe65c63176200111380392/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "c7bf236e2d5065f8e484c3593606bca244fd872cf90aa6fb5d179c5a1ce015a7",
-   "subject": "14",
-   "url": "https://osf.io/download/60fe65c3c7a97601119dc455/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26763600,
-   "sha256": "ba8f1e72b9f71a96f5d80ed42c5964af7552bf343da2c6678b98954c9c433ace",
-   "subject": "14",
-   "url": "https://osf.io/download/60fe656cc7a97601129dccc1/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "e88c9f4e96632e2ae32f87db190064e5886de2dca2a5eab1d8def986ff933b6f",
-   "subject": "14",
-   "url": "https://osf.io/download/60fe656c0c4cba0111bc7111/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 24885700,
-   "sha256": "d729c98da655f4d88ec2070c955b778af15c837135013a011a1a415746b60415",
-   "subject": "14",
-   "url": "https://osf.io/download/60fe65f10c4cba0114bc632a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 1602,
-   "sha256": "3b70c8f2b84a6a1c74d8d15cc646f1b9f5da88fa45624a5b55d6e4576b6f070e",
-   "subject": "14",
-   "url": "https://osf.io/download/60fe65f0317620011037ef5e/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27901100,
-   "sha256": "21478b6c774908c52c1a9fcfb793a8c8f64c6c65409a2506d5e9014f03258e64",
-   "subject": "15",
-   "url": "https://osf.io/download/60fe49f2c7a97601049dcf7f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2007,
-   "sha256": "be9694d2b41f56c89c3b16814e4833b72174ee95050f38be6bc5e3fb518243b8",
-   "subject": "15",
-   "url": "https://osf.io/download/60fe49f0c7a97600ff9dd126/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26705000,
-   "sha256": "dd2e59c9eb6d1b518fea5a6f4a1468ad9f1d8738120d096fba1503d0f595bb6a",
-   "subject": "15",
-   "url": "https://osf.io/download/60fe4a61317620010a37f45d/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "b2b5b15ad9f473ccca63637644682b23ae83cd9bde26ff9066afa115eb37c423",
-   "subject": "15",
-   "url": "https://osf.io/download/60fe4a60317620010b38082e/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 27954300,
-   "sha256": "c5b127fb8a9ab3426685a4883e034e8afdef8a4376d11082e1be2cb8e2f9dc95",
-   "subject": "15",
-   "url": "https://osf.io/download/60fe4a1ec7a97601049dd010/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2007,
-   "sha256": "4b32718eed8db07a7caf1c177a2f909b2c3160ec462839d1073f999f07f675ab",
-   "subject": "15",
-   "url": "https://osf.io/download/60fe4a1bc7a97601049dd007/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 34871900,
-   "sha256": "8b3769212ebe5dd3d4310c8059bdf147182aaf1ced75e4dad39a524e00d15b23",
-   "subject": "15",
-   "url": "https://osf.io/download/60fe4a490c4cba0107bc83d5/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "07d1b9fa7cdbcd569a26f3db07e473818bfc0d1b9f733f75e456cacee6deee6d",
-   "subject": "15",
-   "url": "https://osf.io/download/60fe4a48317620010b3807e2/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 30846100,
-   "sha256": "b8c33d6e9694b4276b4c2d82e8c3dc9dcd280699e3d331263069f34ea48d045c",
-   "subject": "16",
-   "url": "https://osf.io/download/60fe4b9e317620010b380d38/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2006,
-   "sha256": "ea7134ecd5ec3b78862dd35dc79921133a0a1054396ac38fff7af9225d7791bb",
-   "subject": "16",
-   "url": "https://osf.io/download/60fe4b990c4cba0107bc88b0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26747800,
-   "sha256": "1a9a961b57dd08248a5c16f98498738d4a70b85d15555c6630c04e951a27d7ae",
-   "subject": "16",
-   "url": "https://osf.io/download/60fe4b86c7a97601049dd466/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "5d375a34ece0b7d4e5d32ac1878f3de31904b6fd026323e92dbb6f34606e64b0",
-   "subject": "16",
-   "url": "https://osf.io/download/60fe4b85c7a97601039dc95c/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26654400,
-   "sha256": "2d811e63bf6ba2d84e5626fd5ef47cb0b299d05024bbd9957897c85a414d3146",
-   "subject": "16",
-   "url": "https://osf.io/download/60fe4b460c4cba0107bc8734/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "a415f20a7cd17796f5d404ccc4e743c6c9b1ec197d6f3b69bedcca4746a43662",
-   "subject": "16",
-   "url": "https://osf.io/download/60fe4b44c7a97601049dd36d/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27195900,
-   "sha256": "5b6bb34273fc30f8a3c77012aeb85ac43b35bf5dbd8749166d4199dc9981d86d",
-   "subject": "17",
-   "url": "https://osf.io/download/60fe4c73317620010a37f8fb/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "1ccae054df2311c86064b9a51dbc18cedce2ffc884357c3093a44d6fd8e6b0c3",
-   "subject": "17",
-   "url": "https://osf.io/download/60fe4c700c4cba0107bc8c92/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26767200,
-   "sha256": "81d97810ff371413eb5809ddc6b227c6521fb3116e57f68657162edf7397e0ba",
-   "subject": "17",
-   "url": "https://osf.io/download/60fe4bfbc7a97601049dd667/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "66c1111bfd9c668fe82488b5f7987a2810f994e05dc2f8ad314a1da36572e82c",
-   "subject": "17",
-   "url": "https://osf.io/download/60fe4bf8c7a97601039dca86/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26847200,
-   "sha256": "3f52c2b1b74e1befc90b09a7387c28c26fb91bead0b5a13c024152f2f3d82a39",
-   "subject": "17",
-   "url": "https://osf.io/download/60fe4c280c4cba0107bc8b55/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "c8ec5afcb870c186c8f89556ffaa29d989d2a3dd8fbbefba86444dd77485088c",
-   "subject": "17",
-   "url": "https://osf.io/download/60fe4c250c4cba0107bc8b4b/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 28117200,
-   "sha256": "9e9b66277f5f368b7382fd37e07c7c57104582b533454b662c873b55072b57d3",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4e37c7a97601039dcf73/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2007,
-   "sha256": "4e946df2d2b430daa57366cfac2f3d062ea5f88abf9c474bd2f917b74b37c175",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4e36317620010a37fc77/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 27091800,
-   "sha256": "76ad9dd13b59954df2634f78e41b189b6c457881b0280383a3e876f581945b8e",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4e4e317620010a37fcc8/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "637346a435a5269ffe51650f1a5cb0d44525d062947e736119b673ee4e579bc5",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4e4e0c4cba0107bc929a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26941400,
-   "sha256": "893688d9f2698961e185872bfe1afb6b14be9cbcdea2c8997ce4c4a1bad4923b",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4de30c4cba0107bc913d/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1607,
-   "sha256": "19bced68a227cc9fc97f3c4e3ad6defa66e2148588c5b8507e3807350daa4cd8",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4de00c4cba0102bc9b8a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "1d48f5ef740a10a48d3564302c5d44603beb9804fabeaa3204ec8d959b6e6d39",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4de0317620010a37fbc4/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.eeg",
-   "bytes": 29112600,
-   "sha256": "9bac66928ab590cf9d01226386c2cbfe59e0f4ea4a7c48886d3224cba138b796",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4e18317620010a37fc2a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.vmrk",
-   "bytes": 2010,
-   "sha256": "c2a18dbaf694b88e4a4c9f0ac85e0e3e43e8a627c31c0cc07e003108640a3c26",
-   "subject": "18",
-   "url": "https://osf.io/download/60fe4e17317620010538041a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 32737500,
-   "sha256": "d64031642e57cfc00aad4d4db1987180e50e0478d37b46f2f76f2c7a9674ca01",
-   "subject": "19",
-   "url": "https://osf.io/download/60fe4cfec7a97601049dd9ef/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2012,
-   "sha256": "cc94fd48d518a845c3497b625e9851767da5d347eb874f6dd366b75da5b72e55",
-   "subject": "19",
-   "url": "https://osf.io/download/60fe4cfcc7a97601049dd9e7/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 31032000,
-   "sha256": "c25e1ff9ecc827d74e04b0122312dee2a04285529842932cdbad5fe81ba19dd1",
-   "subject": "19",
-   "url": "https://osf.io/download/60fe4d2bc7a97601049dda98/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2010,
-   "sha256": "f24c15c6aca459b768186916b4c91d311b6cb0089fe32873ec0330d502fa9851",
-   "subject": "19",
-   "url": "https://osf.io/download/60fe4d2bc7a97600ff9dd54b/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 28066700,
-   "sha256": "eaf97a36e2466e0d2f9ce9705db71054a7c2a34e14a513b6a054be81440d14e7",
-   "subject": "19",
-   "url": "https://osf.io/download/60fe4cd2317620010b381206/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1588,
-   "sha256": "82099963e6ce8568c4d79355d57ede2629152943fd00d076ca4f619660925d8b",
-   "subject": "19",
-   "url": "https://osf.io/download/60fe4cd10c4cba0106bc76a1/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "cbe8778f028e571b7ece1295c3e2781b7dbbd714428a7c57895dfa50ba89db6a",
-   "subject": "19",
-   "url": "https://osf.io/download/60fe4cd20c4cba0102bc9a65/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27035900,
-   "sha256": "19b96d47160a88a1ececacfadb79ef72d8f3f8b46caebc7f135803974a27126a",
-   "subject": "20",
-   "url": "https://osf.io/download/60fe49970c4cba0102bc9687/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "03b1b42e69e36aacd40685072f9f3224b73350002afb8bf2e53d047292441206",
-   "subject": "20",
-   "url": "https://osf.io/download/60fe4995317620010b3805bc/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 27057400,
-   "sha256": "0280f6d47f468667c42a07434bb711770623c041cb0acc90c1d48c7c7059d627",
-   "subject": "20",
-   "url": "https://osf.io/download/60fe4956317620010b3804f3/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "4236fd0a0620262397ce85bf06b0371eb9c480c45bae5d6b77cb9103ec0f79de",
-   "subject": "20",
-   "url": "https://osf.io/download/60fe49550c4cba0107bc80ce/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26879600,
-   "sha256": "2ec09fe4ba7124fddd16726fff0430dd48985e98cc9711116bcd65c5f7a9fdec",
-   "subject": "20",
-   "url": "https://osf.io/download/60fe493ec7a97601049dcd24/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "39e98b7f9cfdafd2411f6bec2086634639337506d8e85bdff449c5bc90a1e239",
-   "subject": "20",
-   "url": "https://osf.io/download/60fe493d0c4cba0106bc6edf/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 27498700,
-   "sha256": "c261d9fc3f36c136e3552100a9d21013f6caed476c8e3cccc47bad89c1cbeee6",
-   "subject": "21",
-   "url": "https://osf.io/download/60fe4831317620010a37efd6/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "731cc3fcfd246e711e964933908af22b4cf3e567f8e3178c6c05562fa904fbe9",
-   "subject": "21",
-   "url": "https://osf.io/download/60fe482fc7a97600fe9dc4b0/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 27291600,
-   "sha256": "0f275711b5cba7666a8c8c0083525ea26fec87d348ecec28a6d111271aec66e8",
-   "subject": "21",
-   "url": "https://osf.io/download/60fe48b0c7a97601039dc374/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.vhdr",
-   "bytes": 1618,
-   "sha256": "d218e9555d51786fee67e999de3018ef3a5031e94d76a43fbafd98a4a5d55ede",
-   "subject": "21",
-   "url": "https://osf.io/download/60fe48adc7a97601039dc36a/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "cc99e1af1dfd01755645ed6bbe735f8422d5f7f5a806fc510ee4d93a7e27d10d",
-   "subject": "21",
-   "url": "https://osf.io/download/60fe48ae317620010b38026e/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 27103800,
-   "sha256": "693e306dc2f6af50d20fb35a4c83afc4d6c694ae10fe193c3e6f5401aba97be1",
-   "subject": "21",
-   "url": "https://osf.io/download/60fe4882317620010a37f081/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "f58eafadb09bdd0e94b7cbcef97f959b17d911e8ac01b1559e927365883ecbd8",
-   "subject": "21",
-   "url": "https://osf.io/download/60fe4880c7a97601039dc326/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 29716300,
-   "sha256": "db07e6b34010cf6cff09f61a02d7cab5b938f07aa5aa0194e6ee3c61d97a8376",
-   "subject": "22",
-   "url": "https://osf.io/download/60fe4ad1317620010a37f533/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.vhdr",
-   "bytes": 1615,
-   "sha256": "7d8555cf3182643caa068e58a59c78a4abcd983c427110c6eec86ba69c697f48",
-   "subject": "22",
-   "url": "https://osf.io/download/60fe4acec7a97601039dc803/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2008,
-   "sha256": "bfa70d96d2a70ffa6d5e23674ae34f64d9f214784b8ea581a6162639b297a0c0",
-   "subject": "22",
-   "url": "https://osf.io/download/60fe4ad10c4cba0106bc71e2/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 30503000,
-   "sha256": "53a29cbc041177b1bf6ec0205129fa64343f856a3a1344dcb7965f6aaf0b761b",
-   "subject": "22",
-   "url": "https://osf.io/download/60fe4aa60c4cba0107bc84f1/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "d2f5f384ef97d40ad55c26b830fb0cc521ed68c55aa8be4e9874244633efd664",
-   "subject": "22",
-   "url": "https://osf.io/download/60fe4aa2317620010a37f4e3/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 32287500,
-   "sha256": "bce2dd3b09709403c6c38061d35d4bdd9029f1eefc6bcca8ac07019096891a32",
-   "subject": "22",
-   "url": "https://osf.io/download/60fe4ae9317620010638216f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.vhdr",
-   "bytes": 1610,
-   "sha256": "d91a5e383f1f11a9892007093e81df634849e9d751f4ad35e70ce64108f2ea8f",
-   "subject": "22",
-   "url": "https://osf.io/download/60fe4ae40c4cba00febc827f/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2012,
-   "sha256": "2a10beae6b6e5e0aa9daff6db3b09beef01e3a34d3a06cf8e5ceb6f586b5c4d5",
-   "subject": "22",
-   "url": "https://osf.io/download/60fe4ae50c4cba0102bc97c6/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.eeg",
-   "bytes": 29719000,
-   "sha256": "5643732f837226683ea21b764c3474990f6d6c06225e7854c1f27218a7386f80",
-   "subject": "23",
-   "url": "https://osf.io/download/60fe4d71c7a97601049ddb2b/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vmrk",
-   "bytes": 2011,
-   "sha256": "f4daa90c08bb08dd65f23f73dc407361dd5b39854866d26e2e50cf0612551596",
-   "subject": "23",
-   "url": "https://osf.io/download/60fe4d6ec7a97601039dcdd9/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.eeg",
-   "bytes": 26852400,
-   "sha256": "149f76dbab0b7e871981b679e8b209df49dafbe804df9919de181b516a225540",
-   "subject": "23",
-   "url": "https://osf.io/download/60fe4db00c4cba0107bc9076/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vmrk",
-   "bytes": 2005,
-   "sha256": "92d866f62f8adf80aed2fd1053ec07ea80de444d48c92f658c63dd8b79f7d4c0",
-   "subject": "23",
-   "url": "https://osf.io/download/60fe4dadc7a97601049ddbf6/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.eeg",
-   "bytes": 26989800,
-   "sha256": "0ac035f7c7ac797ba2f349c2c8307171e8eea402987fb35cfd5a98b680b50145",
-   "subject": "23",
-   "url": "https://osf.io/download/60fe4d450c4cba0106bc7798/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
-  },
-  {
-   "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vmrk",
-   "bytes": 2004,
-   "sha256": "8f98fc090c9466fbf056ea5c1bc2316a573c8d2103b7ac2ed7dab7dce3c21416",
-   "subject": "23",
-   "url": "https://osf.io/download/60fe4d400c4cba0107bc8f0b/",
-   "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
-  }
- ],
- "n_subjects_recorded": 23,
- "revisions": [
-  {
-   "date": "2026-10-19",
-   "version": "1.0.3",
-   "added_files": 189,
-   "added_bytes": 2400707150,
-   "note": "OSF r7s9b /sourcedata/ round: added 189 files (2,400,707,150 B); replaced 4 sub-07 files (73 ch / 100 Hz copy -> 50 ch / 500 Hz originals); size, MD5 and SHA-256 = OSF API; headers 50 ch, SamplingInterval 2000 us. Still absent: sub-16 ses-05, sub-17 ses-05, sub-19 ses-05, sub-20 ses-05, sub-21 ses-05, sub-22 ses-05, sub-23 ses-05.",
-   "replaced_files": 4,
-   "replaced": [
+  "dataset": "nm000125",
+  "moabb_class": "Lee2021Mobile_SSVEP",
+  "moabb_version_used": "1.5.0",
+  "retrieved": "2026-08-11",
+  "retrieved_by": "moabb.datasets.Lee2021Mobile_SSVEP.data_path()",
+  "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-lee2021mobile-data",
+  "license": "CC BY 4.0",
+  "doi": "10.1038/s41597-021-01094-4",
+  "naming": "upstream_filenames_restored",
+  "n_files": 255,
+  "total_bytes": 2400812972,
+  "files": [
     {
-     "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vhdr",
-     "old_bytes": 2316,
-     "old_sha256": "a436c9eeb2950eb7eda73dbabbfa1d0ed044c05de13506e2383189eb3666cf9e",
-     "new_bytes": 1593,
-     "new_sha256": "1e571d4a4d6f8036e5777af0dac0f391d2af0af99dccdb6cbe39819e98742520"
+      "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27263300,
+      "sha256": "5e94eabd6491cdc24fa43cbb28a21f47513520f3ac7dcc00aa338625d1be9a64",
+      "subject": "1",
+      "url": "https://osf.io/download/dg4e5/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
     },
     {
-     "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vhdr",
-     "old_bytes": 2330,
-     "old_sha256": "7a8e51282aae95f2da8d84fb9345f2fe9aacfe6259bae5d51fee835d3f3fa3eb",
-     "new_bytes": 1601,
-     "new_sha256": "784ecd43a85945b8b068de6c6f497535f1fadae2dc27aa2a39c34a0a248d21ce"
+      "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1624,
+      "sha256": "095a98d807e5809a20b78feb31dfbbce40e1f5fbc0f7e615f802142f923616e9",
+      "subject": "1"
     },
     {
-     "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vhdr",
-     "old_bytes": 2333,
-     "old_sha256": "25e84d5311fa12f26e1d61720213299ef8a368341a5d9fec8160df9f98635cc4",
-     "new_bytes": 1585,
-     "new_sha256": "01e0d11d900214ff165884cd24d2679d56eb536984b331c24765202d6bbab901"
+      "file": "sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "40fceb050638ba766aeb2e1092ae6f07a7377be5625792899e6b2f5c43e96ced",
+      "subject": "1",
+      "url": "https://osf.io/download/hbqjf/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-02/eeg/sub-01_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
     },
     {
-     "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vhdr",
-     "old_bytes": 2321,
-     "old_sha256": "aba2050093d160b7e0af71b14c86095151bca4ae25e49af4861eb725f3283017",
-     "new_bytes": 1593,
-     "new_sha256": "1836e2b4e68ced2ea875dc90fa024ec25ee307cda62355b9360a0ac91a436bb9"
+      "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26578500,
+      "sha256": "55e04a0dcc5f8d945706b94a6c67d1f9080a68da714fb17f0d16bda8e73f5c2d",
+      "subject": "1",
+      "url": "https://osf.io/download/60fe6589317620011537e407/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1622,
+      "sha256": "12790b1ee6eb8bad1806fad148c8283bc727283107bce44d244d7f0ddba326ee",
+      "subject": "1"
+    },
+    {
+      "file": "sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "0bb7db557bb525b4d11ece5688b1730187d2583bbe5c045fefdb838e91779691",
+      "subject": "1",
+      "url": "https://osf.io/download/60fe6586c7a97601119dc392/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-03/eeg/sub-01_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 31667700,
+      "sha256": "d3e0414d97afc585a9ead0e7d839f0a316ee1a97f8834460cf31e0fb83c17f26",
+      "subject": "1",
+      "url": "https://osf.io/download/60fe660dc7a97601129dcfcd/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1611,
+      "sha256": "078812b05969c826dfcb264e8c516bebc86f31bc67a4e28f8bfc7e1991009f5f",
+      "subject": "1",
+      "url": "https://osf.io/download/ny2e8/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "88189f855c22829d051da4e5e2238a3cbb27c3f7ffe645e0a1c11be0c63b589e",
+      "subject": "1",
+      "url": "https://osf.io/download/60fe660b0c4cba0115bc6db0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-04/eeg/sub-01_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 29152600,
+      "sha256": "eff22aa2defe9f32fe16ddcc26e5f4e5c783aa9449ed14d9fd4430552bb1980e",
+      "subject": "1",
+      "url": "https://osf.io/download/60fe6570317620011637eb2f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1617,
+      "sha256": "90c68b78ae7f25242ce3adb4aa54c94b6666a076d1c4e04d2fb74ffc752b0e8a",
+      "subject": "1",
+      "url": "https://osf.io/download/60fe656fc7a97601119dc34a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2006,
+      "sha256": "40fb062739399113ca0afb3d75843fefa7443dcacdddaf812c5ad6fe0b22bf88",
+      "subject": "1",
+      "url": "https://osf.io/download/60fe656b317620011537e396/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-01/ses-05/eeg/sub-01_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 26697500,
+      "sha256": "d7772ffd4f3e2717a1745149e73b0a3e430480985857ea7da2a35fc9d2951982",
+      "subject": "2",
+      "url": "https://osf.io/download/60fe659a0c4cba0114bc61e2/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1614,
+      "sha256": "07c616d45cc391e3ec5afab3d9358dd79308adefb64dae4dd1a960ed140c5130",
+      "subject": "2"
+    },
+    {
+      "file": "sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "c927b291082e9d2d00bf5273e7b4c892d9d5fe3fb6faba2a19f760fb3a4026fb",
+      "subject": "2",
+      "url": "https://osf.io/download/60fe6598c7a976010d9db82c/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-02/eeg/sub-02_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26651700,
+      "sha256": "20b27ef903bbef1993bba6943ef60b1cc7ce0be5431b83a641af391a901c2f32",
+      "subject": "2",
+      "url": "https://osf.io/download/60fe65c5317620011537e502/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1603,
+      "sha256": "085f9bd930bd309c46047b651e270f3c6b1a3a16b1e58ae808e2280f644ef223",
+      "subject": "2"
+    },
+    {
+      "file": "sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "f253e3dc497ebef3d0ab148858ab47f242889b19ec4c400e1e0f40935d231434",
+      "subject": "2",
+      "url": "https://osf.io/download/4e79f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-03/eeg/sub-02_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 27250000,
+      "sha256": "99b9a9e161f543cb5367283c3ac989c75bd1cd3197d1086a4e31b1e470be5419",
+      "subject": "2",
+      "url": "https://osf.io/download/60fe65f10c4cba0115bc6d08/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1608,
+      "sha256": "73e6eb90b7291c2489cd5baf4251681fb46af9598d3fbf4dc1ee11a4ff165120",
+      "subject": "2"
+    },
+    {
+      "file": "sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2006,
+      "sha256": "97f2597eb34e48dc93dbbc6c59cd8e6906b293fdaa774d54b19055c6ef94e3b5",
+      "subject": "2",
+      "url": "https://osf.io/download/60fe65ee31762001113803e5/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-04/eeg/sub-02_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 31714100,
+      "sha256": "335f610a800ebafe6861f58b6de96346ce4fbd9fb97e65126043431315052bca",
+      "subject": "2",
+      "url": "https://osf.io/download/60fe656e0c4cba0115bc6a49/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1599,
+      "sha256": "5741bd06c42346a0f0935fa09390e82f8cf4d66bf2d8409409ea96e7d9c1f85d",
+      "subject": "2"
+    },
+    {
+      "file": "sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2008,
+      "sha256": "a63b05378c4ed1af5950c42473e85624a5407817b84c0d2daa817e1df2105e66",
+      "subject": "2",
+      "url": "https://osf.io/download/60fe656d31762001113802da/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-02/ses-05/eeg/sub-02_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27045200,
+      "sha256": "05c0893289835f5a5e82587a03df298d441c2afab816dbb4d74e56bef5141a5c",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe67610c4cba0111bc746c/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1625,
+      "sha256": "5837699ea017b751c79fd7b08a11c2b416c7638923e91b33131c3309e60ca234",
+      "subject": "3"
+    },
+    {
+      "file": "sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "45974af76a9b4917d43ec5dbf24e2cfa532f93ce61a8fbbfebd0b19bf73b3012",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe67600c4cba0110bc65b9/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-02/eeg/sub-03_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 27175200,
+      "sha256": "689a248f4793465a13b10cd09cd654b6c6ac2dd46ce425f9a29e8f2bb0ea1169",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe66e2c7a97601119dc797/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1625,
+      "sha256": "b5c40ee9fd6cf14b4be0ba015bc5550099facef8210754ab88de69848a0d9ba5",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe66e0317620011537e7ec/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2006,
+      "sha256": "4bede261c59b5de1e09167085a44eb22dd17440da81ee3b2851cf1dfe46b8e2c",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe66df3176200111380546/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-03/eeg/sub-03_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26840900,
+      "sha256": "c81545c0fea2e14e4d4a642df5e0f7e5da7fb4702f484b1cb098b7164815cd21",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe678ec7a976010e9dbf99/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1617,
+      "sha256": "3ce191280e8b5a5712eba7a069a2f47e3ae125ff7e53a980a214e4ab5b96b8db",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe678c0c4cba0115bc73ca/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "f51fae536b90d01e8b4462a34121a3f5aa239ca36a5825bc517d14229aaf55e6",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe678c0c4cba0114bc67a0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-04/eeg/sub-03_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 36312400,
+      "sha256": "96e002aae729bb39480c3f99a1c13e0c87cb00e726b1e5b954277ee05ec1218e",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe671f0c4cba0110bc6583/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1597,
+      "sha256": "30a3fb8d7525b78ecdd8eee4faa321639d81806f5ad8e44ad923243a2b7cabcb",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe671cc7a976010e9dbf0e/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "fd3a85fe3e952da9186c33d8911bc40d80f3015bd8e2f43cd5d99b20da1a4690",
+      "subject": "3",
+      "url": "https://osf.io/download/60fe671c317620011637f2bb/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-03/ses-05/eeg/sub-03_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27741100,
+      "sha256": "09aa7bdf2103cea7b8886197dfb84ab487eed1c43d3b780ec5a9fab0bd38ba89",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe6651c7a97601119dc629/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1606,
+      "sha256": "da917cf58c98b3ab5a959b76b56b55ac273342c360b436450c51a9dc93c9d71d",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe66500c4cba0114bc645a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "71a465a0527c4e5eae5fd5963626e56ae2d07910763145072ea0a5c258a061d9",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe664c3176200111380476/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-02/eeg/sub-04_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 27709400,
+      "sha256": "b099a28f9ffccd9db584e5f9a527d4a732accfa126e55bba7fc880d7974157d4",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe6638c7a97601129dd095/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1610,
+      "sha256": "a5efe3ca32a5b170e902f3e6cf24c884bae6855df986052b3f011751c62ac498",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe66330c4cba0115bc6e60/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2006,
+      "sha256": "d1ba6f0e13799c013f87db2df42aa3be9b897dccfd8265df12e265a24defdb54",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe6635317620011537e643/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-03/eeg/sub-04_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26948600,
+      "sha256": "98552a19031889fd8e62d658b4ecb599c386c969bbc4db5534be7e746b61d129",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe668e0c4cba0114bc64ee/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1600,
+      "sha256": "99d7c65fdd2a2ef5bd4ae238461d8e26cd09a13cde891c6dae4cb537d372f293",
+      "subject": "4"
+    },
+    {
+      "file": "sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "a5b55f25b2444075ffba057e278a75d8fbdbf7f7fa62f0b2662b289bac8d4403",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe668c0c4cba0111bc72f4/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-04/eeg/sub-04_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 36701600,
+      "sha256": "60d9d3aefa13f21aa1b37fdab72027fc74c1c43a8bd406adf2240c1aedae2385",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe66b9c7a976010d9db925/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1587,
+      "sha256": "b89302e2540c0c2ff7f16f9ce40419a53cb74a146f79f962d27027c56dd64325",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe66b7c7a976010e9dbe94/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2009,
+      "sha256": "6e019c7ff773db0d2ee46f21e5e683ba02ab3e3055f7fbd4e825b7230080b523",
+      "subject": "4",
+      "url": "https://osf.io/download/60fe66b8317620011637f134/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-04/ses-05/eeg/sub-04_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 29801100,
+      "sha256": "619383d4ce737e84e09290f8f13f65a4c53412bec96d2b70a82754b6f2a0f511",
+      "subject": "5",
+      "url": "https://osf.io/download/60fe51ef0c4cba010bbc5284/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1606,
+      "sha256": "2ab249c451bcafdf373882418978c079eb8b73adb526aa3849cf1bc745c82853",
+      "subject": "5"
+    },
+    {
+      "file": "sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2010,
+      "sha256": "bc56d93a0ed8842faa8b2794076b7dead76750f59df4d281e6267e78e076d58b",
+      "subject": "5",
+      "url": "https://osf.io/download/60fe51ee31762001053806c0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-02/eeg/sub-05_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 28662200,
+      "sha256": "009c8c874bca3893d9a3a33f6705c288e208efb6b3ee771e5ee992577ab126e8",
+      "subject": "5",
+      "url": "https://osf.io/download/60fe521c317620011037d309/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1607,
+      "sha256": "6f862a1a6d6fcac893e18cdf155a47e170c4cdedeaeface2b828c7997175ab5e",
+      "subject": "5"
+    },
+    {
+      "file": "sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2008,
+      "sha256": "89d2e724f670937a744407dfa0724f994df554fa827ff6d8f4919b0f2dcd8d72",
+      "subject": "5",
+      "url": "https://osf.io/download/60fe52183176200106382b1a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-03/eeg/sub-05_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 27112400,
+      "sha256": "c82558594a1f91ff9154e20ca7914fff6d3bde8db306a023bd85a3e8310ca586",
+      "subject": "5",
+      "url": "https://osf.io/download/60fe5249c7a97601049deea0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1600,
+      "sha256": "74051ffb202530e4ce48bc1c0bde0d3c65f23e59c273a1b419b108df192ef2c0",
+      "subject": "5"
+    },
+    {
+      "file": "sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "c8ba890d991c5295d84b47b2b39a875ad4087700328ac79349bbbd37c67b7263",
+      "subject": "5",
+      "url": "https://osf.io/download/60fe5245c7a97601039ddb02/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-04/eeg/sub-05_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 29112600,
+      "sha256": "9bac66928ab590cf9d01226386c2cbfe59e0f4ea4a7c48886d3224cba138b796",
+      "subject": "5",
+      "url": "https://osf.io/download/60fe51c30c4cba010bbc5222/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1602,
+      "sha256": "d65bc532628e2e18c7d704ebd550cfe51cab19db435b9bda5ab279cf85e17216",
+      "subject": "5"
+    },
+    {
+      "file": "sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2010,
+      "sha256": "f0042cdcfe6c448c9c2bb28f2c6a38babe457432fe24b0941a3a4a4f8b74c9b4",
+      "subject": "5",
+      "url": "https://osf.io/download/60fe51c331762001053806a3/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-05/ses-05/eeg/sub-05_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 26892500,
+      "sha256": "c72e22ed9739743058e2cfcb305d1077a42a08ef18b4a16e9efce7c609228df7",
+      "subject": "6",
+      "url": "https://osf.io/download/60fe50fe0c4cba0106bc8164/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1612,
+      "sha256": "f12f8fc05382242e58fb46f6f8466ae4d4c058239b842cd3dd0a2b8efbd56ef0",
+      "subject": "6"
+    },
+    {
+      "file": "sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "d2e03d449ad5c2b31ce838452754480a42c3efdbaad1af91d6bb2df4fd6e7ebb",
+      "subject": "6",
+      "url": "https://osf.io/download/60fe50fa0c4cba0102bca009/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-02/eeg/sub-06_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 27253300,
+      "sha256": "1a9d58319fd37f00ee9c8388dda985e5bd2ed158c8a33d8dae35c80b0ae1bf4e",
+      "subject": "6",
+      "url": "https://osf.io/download/60fe5114c7a97601039dd77d/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1616,
+      "sha256": "7c67ee064f9947974295c7de2d7116fceb353e3109e5b89f2c7a94f786aab751",
+      "subject": "6"
+    },
+    {
+      "file": "sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "8724f3d79182b91e15f53b2f3c25593030dfe856dc71cdd9649862b110ac8566",
+      "subject": "6",
+      "url": "https://osf.io/download/60fe51123176200106382926/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-03/eeg/sub-06_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26973800,
+      "sha256": "2c13c730091f216cf85739209312fadba688902f8c88bf06497716fa9ea397c8",
+      "subject": "6",
+      "url": "https://osf.io/download/60fe5153317620010a3805f0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1619,
+      "sha256": "66e8d8dfd01f9e6ecdfa6ffd6dfc3f36e07ed10c19398610d37db0ca266f097e",
+      "subject": "6"
+    },
+    {
+      "file": "sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "b30c3ff75c28e789f6902c059080238efbde6092b8e5f1562223b7f7ba1da43c",
+      "subject": "6",
+      "url": "https://osf.io/download/60fe5152317620010a3805e5/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-04/eeg/sub-06_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 29369700,
+      "sha256": "878f6fa6622d1f69002008a7d87cd3519e2f78c2d80966a3ea2f19c78dacc82a",
+      "subject": "6",
+      "url": "https://osf.io/download/60fe516d0c4cba0106bc838d/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1595,
+      "sha256": "f9581e20aa1851191fbab4a461cfb7056e81c6317d4d5857f34f29908c9488ec",
+      "subject": "6"
+    },
+    {
+      "file": "sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2006,
+      "sha256": "3bd493e32b8ebb5c5740b7a9690679698278cfc4e125e867580627b2211304ea",
+      "subject": "6",
+      "url": "https://osf.io/download/60fe516b317620010a380690/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-06/ses-05/eeg/sub-06_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 26863900,
+      "sha256": "bade259226acbd98d2384dd2ff36191c072dea4790b1c353e4266712f24a29d9",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe669e317620011537e736/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1593,
+      "sha256": "1e571d4a4d6f8036e5777af0dac0f391d2af0af99dccdb6cbe39819e98742520",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe669b31762001113804d2/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "7b3bf652212697cfce7db0fd819cb01dcf7638682bbcf3c2c29d1d0b728ea768",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe669cc7a976010e9dbe67/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26865400,
+      "sha256": "5324ff7dddac3aab5ca4113dae08ef3f5aefbfe776eb2c330462634ab2af0901",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe66c90c4cba0111bc7346/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1601,
+      "sha256": "784ecd43a85945b8b068de6c6f497535f1fadae2dc27aa2a39c34a0a248d21ce",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe66c90c4cba0114bc6598/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "923e4292529cbf364ff152b0d8084df6280c829244e7156cb3d0f6af7945aae6",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe66c4c7a97601129dd2bd/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26623600,
+      "sha256": "e714f2f142317b87a1cbdb6b05a3e39378b870601e9ad1e7fed0a1b376ed89ab",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe6649c7a97601119dc619/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1585,
+      "sha256": "01e0d11d900214ff165884cd24d2679d56eb536984b331c24765202d6bbab901",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe6645317620011537e675/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "3f5a152c5f92ebea946e1b1a0e1ccda9fd5da8446353e0a78510020451410f1f",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe6646c7a976010e9dbdcf/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 26779300,
+      "sha256": "dd09be551aeaaa2633382d0df0d25f8c06191b15b9dd36aff98043d16cb5b688",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe661e317620011537e603/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1593,
+      "sha256": "1836e2b4e68ced2ea875dc90fa024ec25ee307cda62355b9360a0ac91a436bb9",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe661ac7a976010d9db8a8/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "cb6a630d2bb3c97098e41f6f0fc72a8926d60b0e897bbeacc89097c5b1803ed9",
+      "subject": "7",
+      "url": "https://osf.io/download/60fe6618317620011537e5e6/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 26945400,
+      "sha256": "afe56876c08c86befeb1c4505166000e6adb3f6b35fd2c70443e94dc348a946e",
+      "subject": "8",
+      "url": "https://osf.io/download/60fe4ed7c7a97601039dd091/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1591,
+      "sha256": "58266dc5a8d53d89f7ed3b83e7ce229c68966efeedcfebb890d34eb814fcca67",
+      "subject": "8"
+    },
+    {
+      "file": "sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "70a7a845dab6a55e0e8e9d848f8a9f7c6381d8763384c997ee5f6cc33b893807",
+      "subject": "8",
+      "url": "https://osf.io/download/60fe4ed3c7a97601039dd087/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-02/eeg/sub-08_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26911100,
+      "sha256": "090185ead0e4bff3f68488572cd3e80939447dcdbc8d120947b541ca8a03b6fe",
+      "subject": "8",
+      "url": "https://osf.io/download/60fe4eeec7a97600fe9dc88a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1593,
+      "sha256": "cf8dd1ae896e244d350d381820120982824b5a8866054db53caf38050b009096",
+      "subject": "8"
+    },
+    {
+      "file": "sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "550c1bfa9ccb8fddf46a8839695da025d2ac363a2c57cfdd50d5619228806367",
+      "subject": "8",
+      "url": "https://osf.io/download/60fe4eedc7a97601049de005/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-03/eeg/sub-08_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 27029700,
+      "sha256": "fa5aa066bc11e775fea426c98e43982cf2f9fb5d623f06e01ef85bc63cf05551",
+      "subject": "8",
+      "url": "https://osf.io/download/60fe4f17c7a97600ff9dd743/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1602,
+      "sha256": "6d3de8fc61266e50beb1a59cad4df77dac960e517e86ef3944dea27ccdb8db69",
+      "subject": "8"
+    },
+    {
+      "file": "sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "e28c9c1192e7ee06a623f2244c62d950749e00f7e13925289251f04ac68253d0",
+      "subject": "8",
+      "url": "https://osf.io/download/60fe4f16c7a97600ff9dd73d/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-04/eeg/sub-08_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 26822100,
+      "sha256": "bcd81d9c5b5eac8d2af1f14ed493148965ac370e7bfa21c3f483c441998ae352",
+      "subject": "8",
+      "url": "https://osf.io/download/60fe4eac0c4cba0107bc9407/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1591,
+      "sha256": "0886b36cbe49a2830ac977399228539f4b4ef5fafe3d72e409b4308bc521c04c",
+      "subject": "8"
+    },
+    {
+      "file": "sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "41073b052ed8d48742ba138c8c6ec30958ee832731993d28f1324fd0efa2af7e",
+      "subject": "8",
+      "url": "https://osf.io/download/60fe4ea931762001063825b3/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-08/ses-05/eeg/sub-08_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 26893800,
+      "sha256": "395c1f2a4fef37cc2f44794d5719c422c501cb6872cfc8189c506b2f5a221a87",
+      "subject": "9",
+      "url": "https://osf.io/download/60fe50d1c7a97601049de7f7/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1584,
+      "sha256": "43e4b6fb3a719cccb3b76493fb72a9af91fb78340cea0a5b7bda4fd59a9d945a",
+      "subject": "9"
+    },
+    {
+      "file": "sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "e1199f7d73a786bbc1564b380fe67a9badd59a21c1d7ddebbb123ecab2272781",
+      "subject": "9",
+      "url": "https://osf.io/download/60fe50cf317620010b382183/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-02/eeg/sub-09_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26969000,
+      "sha256": "c77c7c9c9e1518c4c6d48b26d981743b2826572e125738a3d9e6845156ae95c9",
+      "subject": "9",
+      "url": "https://osf.io/download/60fe50210c4cba0107bc98f6/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1593,
+      "sha256": "171bde88765c4440024c55e20ab20092ed0e95b511f064105096bb51db25b29b",
+      "subject": "9"
+    },
+    {
+      "file": "sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "45acd8712f09dc19318114c4608fdd4be216f29f3f643ae89b6978a6f10df523",
+      "subject": "9",
+      "url": "https://osf.io/download/60fe501f0c4cba0107bc98e6/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-03/eeg/sub-09_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26823600,
+      "sha256": "eb60f0f9428e0956d8a321a6983c8d8c2078604fd09ead871c12238da9d6fb4d",
+      "subject": "9",
+      "url": "https://osf.io/download/60fe508b317620010b381f0f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1589,
+      "sha256": "79b2382f5430e11a5cf00799a9c62e5ee69410b5cf69f4c2aed1e5c23708e7ac",
+      "subject": "9"
+    },
+    {
+      "file": "sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "74afb6c56000d1f56bce9e1a2beec0c2abc74028b2422c4d4e433f446f723ca2",
+      "subject": "9",
+      "url": "https://osf.io/download/60fe508b3176200105380561/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-04/eeg/sub-09_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 26752800,
+      "sha256": "a7068e26db175f3cd3a56d45ae14a307195f39f5ec78aba126537560efa10023",
+      "subject": "9",
+      "url": "https://osf.io/download/60fe504ec7a97600ff9dd8e0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1599,
+      "sha256": "abc67d5c656d09ef780b48cdcf192d5a096799e27832153eb73a174f732c6833",
+      "subject": "9"
+    },
+    {
+      "file": "sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "8467ac420c30c2c84e0d04d6f97ba1a582d5369b3155a2c32d3a59448ba765c3",
+      "subject": "9",
+      "url": "https://osf.io/download/60fe504bc7a97600ff9dd8d8/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-09/ses-05/eeg/sub-09_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27536000,
+      "sha256": "422b82456d91478a23e1d90a51eaa314ee5a68c77c65c062a36d469c8f92246a",
+      "subject": "10",
+      "url": "https://osf.io/download/60fe4ff20c4cba0107bc9858/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1606,
+      "sha256": "a76a75091612475d2f20a602cfd3aa51d80cbc024765d1dea7476ef487f8dedf",
+      "subject": "10"
+    },
+    {
+      "file": "sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "6226ca82f59b5dcd97724a682c83b7260a98bc3dfc7423e8a3651ffeb5e83fb5",
+      "subject": "10",
+      "url": "https://osf.io/download/60fe4ff1c7a97601039dd2dd/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-02/eeg/sub-10_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 27043100,
+      "sha256": "43a017a2c915e0dcb10523d97b6e2d4afec1a12855118b71d22ce1cc138dadce",
+      "subject": "10",
+      "url": "https://osf.io/download/60fe4fb20c4cba00febc8517/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1608,
+      "sha256": "69c22abc6d682ff76393fbd79f5874184502b127f5c0df8fdf8fd44215d00236",
+      "subject": "10"
+    },
+    {
+      "file": "sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "d766c51eb0db06667197fbce766035549a8681842c15d29917108801dac4de78",
+      "subject": "10",
+      "url": "https://osf.io/download/60fe4faf317620010a37fff5/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-03/eeg/sub-10_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26874500,
+      "sha256": "d78e438da54c962c2d1463a5323224f7ae144bc26558786a2a84e545a3b69cfe",
+      "subject": "10",
+      "url": "https://osf.io/download/60fe4f880c4cba00febc8502/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1609,
+      "sha256": "dd0000415c484714c96944a8b169e1def373e3975954ed280dd8914aa5cc62cf",
+      "subject": "10"
+    },
+    {
+      "file": "sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "d5f8978d5170f814fd78699f5ee2d31ef19ad0d504ce20809616d1dd21dbce1c",
+      "subject": "10",
+      "url": "https://osf.io/download/60fe4f85317620010b381ad7/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-04/eeg/sub-10_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 26815400,
+      "sha256": "a7fcba67e81c4f01d318e91d8a5ed4d708a80d00c43c8d5e7ef2f4530d8f7b49",
+      "subject": "10",
+      "url": "https://osf.io/download/60fe4f5c0c4cba0106bc7bef/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1602,
+      "sha256": "f768a9c10f506e571eb6bc3e56084724ec3d26503bc26e564080a2460c07a279",
+      "subject": "10"
+    },
+    {
+      "file": "sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "becf9aa870794bb2b233a479cc9b87336933eaba7329e24b37c3de0377d7d090",
+      "subject": "10",
+      "url": "https://osf.io/download/60fe4f5c0c4cba0107bc964d/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-10/ses-05/eeg/sub-10_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 28770500,
+      "sha256": "58ca9afc7f371d3169e672b80f5deda0c614daaad88bfe480ca19a7788a2869f",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe6597c7a97601119dc3d4/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1598,
+      "sha256": "5940b42f8be6b468b4d645d6e21dc5fbd4988ed59e4265a6f4bac9aba135bcb0",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe65950c4cba0110bc6446/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2006,
+      "sha256": "12a8b52f82008610ad3642fb8dd5b3b5bcbef828a91503dd3b50db4538606589",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe6593317620011537e432/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-02/eeg/sub-11_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 28099600,
+      "sha256": "be57239a2b77709774cded049fdb89757e88a463af29a62a443d75165e023f36",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe65ad317620011537e484/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1601,
+      "sha256": "ab4db6763993ca5dcd45a0c71e946c0820f5a2247e2a9f08b691d662c24b2449",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe65a9317620011637ec5e/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "1e0290d8569246681e85ef2e707befc7d90e20d47d6348f74a8edb25e7296451",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe65aa0c4cba0111bc7186/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-03/eeg/sub-11_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 29851200,
+      "sha256": "8d36192a9491bd0cd59badbd468d0d431cd20297785ddb0218c5632b84efe47b",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe656c317620011637eb1f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1598,
+      "sha256": "0b4f136efd328edd624b48f32a90b4b8108b9ad9ccb1f40522e03e5b8532d4fd",
+      "subject": "11"
+    },
+    {
+      "file": "sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2008,
+      "sha256": "6fc2662fc4897633d0ea9b573b41eb65ec356ba488796941f2ad47153cc30483",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe656b0c4cba0114bc613a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-04/eeg/sub-11_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 30217400,
+      "sha256": "1f5f541c6356443bb6175b007039d1a6a8d12a0256e8c8b217edccd9d7a7c238",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe65ea317620011537e56f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1596,
+      "sha256": "72e210eb2bdfc7aaa4c5ee477c252ae9270648f50b4d54515224b36a0424b6e0",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe65e7317620011637edb2/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2006,
+      "sha256": "81e00846690de957288a93b91a248d95bd18d3a2ccb90b874dc3b534c21ac6ad",
+      "subject": "11",
+      "url": "https://osf.io/download/60fe65e40c4cba0115bc6cb8/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-11/ses-05/eeg/sub-11_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27368300,
+      "sha256": "f28a3fcc001618f161fd9a46142bd22b5976c7cdec6cd8ad262e63d5c8cb6672",
+      "subject": "12",
+      "url": "https://osf.io/download/60ff5f940c4cba016bbc8cc5/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1596,
+      "sha256": "80b7f9b4b837ba15a2648dec7726b4d78878da3fc981055ef6973e9ef92d9d11",
+      "subject": "12"
+    },
+    {
+      "file": "sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "dbcc2fa160be326c505efbae4d8fb2be0f0a688fbec06a1180d3881555e84f4b",
+      "subject": "12",
+      "url": "https://osf.io/download/60ff5f9231762001873804aa/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-02/eeg/sub-12_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26893700,
+      "sha256": "6c8d8b2e584fe34933581cff574b8f049e280c5adfe4687cb2e661cbfd0c864c",
+      "subject": "12",
+      "url": "https://osf.io/download/60ff5f860c4cba0173bc986c/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1608,
+      "sha256": "ad5043485704ba5fef2148eda8306251be1731681f4debcddd833f289571cab2",
+      "subject": "12",
+      "url": "https://osf.io/download/60ff5f8531762001863820a1/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "080f67981f63c017351de0061b7bd9c7af8df8096bcdb5c9db23b4cecf92a407",
+      "subject": "12",
+      "url": "https://osf.io/download/60ff5f85c7a97601889e00d0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-03/eeg/sub-12_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26926500,
+      "sha256": "c8578f9c6557e3fa18f4e728636c88c1d9d67386959294d487020e6777a1ad10",
+      "subject": "12",
+      "url": "https://osf.io/download/60fe533a0c4cba010cbc581e/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1601,
+      "sha256": "a14d6b836bc2044f2355239ef44b12a3b924226142e5986eb6425d1e0e5f628f",
+      "subject": "12",
+      "url": "https://osf.io/download/60fe53360c4cba010cbc580f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "14eeff334940a3f55b516dad88a5d6895f6d0aa4f881a9133f009fa69d5d7cd8",
+      "subject": "12",
+      "url": "https://osf.io/download/60fe5336317620011137d6c7/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-04/eeg/sub-12_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 42864600,
+      "sha256": "0822fafbf15e5ef72fde23345015240397dd1e6c202d11b5c831417b056b13e1",
+      "subject": "12",
+      "url": "https://osf.io/download/60ff5fc40c4cba016bbc8d0c/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1560,
+      "sha256": "1de19860ab565ad73f93052b3f0f456e6534ccddbde912adb0894e1087b206e7",
+      "subject": "12",
+      "url": "https://osf.io/download/60ff5fbf0c4cba0173bc9956/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2009,
+      "sha256": "a5d66c64a4986c11b58e5b05213250d1697243476694f6a11132e7c287c5a44f",
+      "subject": "12",
+      "url": "https://osf.io/download/60ff5fbf0c4cba0173bc995b/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-12/ses-05/eeg/sub-12_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 26866000,
+      "sha256": "0b39c7834d5dcf58e15a41ee37a77e0e87bba0eb828866edd3ac973aa9aef051",
+      "subject": "13",
+      "url": "https://osf.io/download/60fe531d317620011137d688/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1605,
+      "sha256": "040050d409dec646212960aec1bbd1bbbcd9a7754a8ea5eb3223210efbbb4225",
+      "subject": "13"
+    },
+    {
+      "file": "sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "28baa91810858db1dccba7bb9db33ceb17213da186e5554e642079b58d74b63f",
+      "subject": "13",
+      "url": "https://osf.io/download/60fe531cc7a97600ff9ddd99/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-02/eeg/sub-13_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 29759200,
+      "sha256": "c24ea7acdf484ce60541f0f8d2a29840378565eefc5c922547b9aafecff920d1",
+      "subject": "13",
+      "url": "https://osf.io/download/60fe5288317620011137d49f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1606,
+      "sha256": "a76f7a964eeee1f746d00005ffd75397146a6cd50307ad67e547dc07db2c4b11",
+      "subject": "13"
+    },
+    {
+      "file": "sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2011,
+      "sha256": "6da7ba9b89f00aa02ba2c705fd640f7c7e0f7ac8ce5cf0a5c324d382438ea7f0",
+      "subject": "13",
+      "url": "https://osf.io/download/60fe5287c7a97601049def76/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-03/eeg/sub-13_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26867000,
+      "sha256": "1779aa713c4e861f3c3f3f04179687e85e943c0660584bd76e69476b77d81011",
+      "subject": "13",
+      "url": "https://osf.io/download/60fe529e317620011137d4dc/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1600,
+      "sha256": "f82ad6004c000a554a761632e05f1d7d2381d8467cb0278174da1d74a409fb6e",
+      "subject": "13"
+    },
+    {
+      "file": "sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "e66f1957ed2fb5d5f29634415beeb8440428e4e10fbf1c1d5c631889c885aa16",
+      "subject": "13",
+      "url": "https://osf.io/download/60fe529a317620011137d4cd/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-04/eeg/sub-13_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 26821800,
+      "sha256": "ed82e27b324e56f8ef8736252597d0b7c030a83226475c5d922b807dc700c6ff",
+      "subject": "13",
+      "url": "https://osf.io/download/60fe52c90c4cba010cbc566b/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1609,
+      "sha256": "2ea12d3e3b37e686ffad9310635c6772c58118b60d2377cbce83d9043d994d27",
+      "subject": "13"
+    },
+    {
+      "file": "sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "f8ded2fe02c3087c574f89ce7f43682d72a021f73f7d4f1c9939484d7c78a5c2",
+      "subject": "13",
+      "url": "https://osf.io/download/60fe52c80c4cba010cbc5666/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-13/ses-05/eeg/sub-13_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27058100,
+      "sha256": "f592e28f4b07eff443114927a8fb820c44747b34dc9c1f465863846efb48a8e5",
+      "subject": "14",
+      "url": "https://osf.io/download/60fe6584317620011637eb87/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1606,
+      "sha256": "74b29126d99a91eb6443563bb4bc19263190201b2c2bf4b69185d1ecba229846",
+      "subject": "14"
+    },
+    {
+      "file": "sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "bf0917bda6166f087704e20896da31ca6060950cda453f0740d2c8bfebc34130",
+      "subject": "14",
+      "url": "https://osf.io/download/60fe6582317620011537e3f6/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-02/eeg/sub-14_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26792200,
+      "sha256": "5bb3a30913b570c63d3c1b91b9778e7b6f3b7a329d21b35046494269d3395386",
+      "subject": "14",
+      "url": "https://osf.io/download/60fe65c63176200111380392/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1589,
+      "sha256": "5261c227c96de18e8a3f7642aab29291fdbf05412381a66793b7ad20641d4be3",
+      "subject": "14"
+    },
+    {
+      "file": "sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "c7bf236e2d5065f8e484c3593606bca244fd872cf90aa6fb5d179c5a1ce015a7",
+      "subject": "14",
+      "url": "https://osf.io/download/60fe65c3c7a97601119dc455/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-03/eeg/sub-14_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26763600,
+      "sha256": "ba8f1e72b9f71a96f5d80ed42c5964af7552bf343da2c6678b98954c9c433ace",
+      "subject": "14",
+      "url": "https://osf.io/download/60fe656cc7a97601129dccc1/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1613,
+      "sha256": "49271363f7237656b0b00608367c9e7b2833a01ca1d7f0e43716911605f36a8d",
+      "subject": "14"
+    },
+    {
+      "file": "sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "e88c9f4e96632e2ae32f87db190064e5886de2dca2a5eab1d8def986ff933b6f",
+      "subject": "14",
+      "url": "https://osf.io/download/60fe656c0c4cba0111bc7111/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-04/eeg/sub-14_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 24885700,
+      "sha256": "d729c98da655f4d88ec2070c955b778af15c837135013a011a1a415746b60415",
+      "subject": "14",
+      "url": "https://osf.io/download/60fe65f10c4cba0114bc632a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1600,
+      "sha256": "10bbace219fc89841cb9219eb45c44dddab2ce7329ac6077cd3d9d846689b877",
+      "subject": "14"
+    },
+    {
+      "file": "sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 1602,
+      "sha256": "3b70c8f2b84a6a1c74d8d15cc646f1b9f5da88fa45624a5b55d6e4576b6f070e",
+      "subject": "14",
+      "url": "https://osf.io/download/60fe65f0317620011037ef5e/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-14/ses-05/eeg/sub-14_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27901100,
+      "sha256": "21478b6c774908c52c1a9fcfb793a8c8f64c6c65409a2506d5e9014f03258e64",
+      "subject": "15",
+      "url": "https://osf.io/download/60fe49f2c7a97601049dcf7f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1612,
+      "sha256": "1465facc95d57991c3353762db5818345de07b4ed88aa2a01474f4c4df7ba9f3",
+      "subject": "15"
+    },
+    {
+      "file": "sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2007,
+      "sha256": "be9694d2b41f56c89c3b16814e4833b72174ee95050f38be6bc5e3fb518243b8",
+      "subject": "15",
+      "url": "https://osf.io/download/60fe49f0c7a97600ff9dd126/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-02/eeg/sub-15_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26705000,
+      "sha256": "dd2e59c9eb6d1b518fea5a6f4a1468ad9f1d8738120d096fba1503d0f595bb6a",
+      "subject": "15",
+      "url": "https://osf.io/download/60fe4a61317620010a37f45d/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1601,
+      "sha256": "7157530aa7b5e90d94fdd4ecc4ef6f3e71acc7f9bc2e2452410b9c06249a88ad",
+      "subject": "15"
+    },
+    {
+      "file": "sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "b2b5b15ad9f473ccca63637644682b23ae83cd9bde26ff9066afa115eb37c423",
+      "subject": "15",
+      "url": "https://osf.io/download/60fe4a60317620010b38082e/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-03/eeg/sub-15_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 27954300,
+      "sha256": "c5b127fb8a9ab3426685a4883e034e8afdef8a4376d11082e1be2cb8e2f9dc95",
+      "subject": "15",
+      "url": "https://osf.io/download/60fe4a1ec7a97601049dd010/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1599,
+      "sha256": "b7f4526e6c0e2ed3b991645fb58afce15f4e01bd92f1f4faab7fa75cf40bdce8",
+      "subject": "15"
+    },
+    {
+      "file": "sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2007,
+      "sha256": "4b32718eed8db07a7caf1c177a2f909b2c3160ec462839d1073f999f07f675ab",
+      "subject": "15",
+      "url": "https://osf.io/download/60fe4a1bc7a97601049dd007/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-04/eeg/sub-15_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 34871900,
+      "sha256": "8b3769212ebe5dd3d4310c8059bdf147182aaf1ced75e4dad39a524e00d15b23",
+      "subject": "15",
+      "url": "https://osf.io/download/60fe4a490c4cba0107bc83d5/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1589,
+      "sha256": "d2f4ae323c251b8df4b2a045e139dce777922db6673270371dff0ea430d35513",
+      "subject": "15"
+    },
+    {
+      "file": "sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "07d1b9fa7cdbcd569a26f3db07e473818bfc0d1b9f733f75e456cacee6deee6d",
+      "subject": "15",
+      "url": "https://osf.io/download/60fe4a48317620010b3807e2/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-15/ses-05/eeg/sub-15_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 30846100,
+      "sha256": "b8c33d6e9694b4276b4c2d82e8c3dc9dcd280699e3d331263069f34ea48d045c",
+      "subject": "16",
+      "url": "https://osf.io/download/60fe4b9e317620010b380d38/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1600,
+      "sha256": "aeffae89127bb0efb440e637dddaaea6d2a6ed55aac09d887416d3647b26348e",
+      "subject": "16"
+    },
+    {
+      "file": "sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2006,
+      "sha256": "ea7134ecd5ec3b78862dd35dc79921133a0a1054396ac38fff7af9225d7791bb",
+      "subject": "16",
+      "url": "https://osf.io/download/60fe4b990c4cba0107bc88b0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-02/eeg/sub-16_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26747800,
+      "sha256": "1a9a961b57dd08248a5c16f98498738d4a70b85d15555c6630c04e951a27d7ae",
+      "subject": "16",
+      "url": "https://osf.io/download/60fe4b86c7a97601049dd466/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1608,
+      "sha256": "35943dcde53a19e040137d90e54275ade40e0d9b7a6f5497d307e5fc6d9c7fd1",
+      "subject": "16"
+    },
+    {
+      "file": "sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "5d375a34ece0b7d4e5d32ac1878f3de31904b6fd026323e92dbb6f34606e64b0",
+      "subject": "16",
+      "url": "https://osf.io/download/60fe4b85c7a97601039dc95c/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-03/eeg/sub-16_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26654400,
+      "sha256": "2d811e63bf6ba2d84e5626fd5ef47cb0b299d05024bbd9957897c85a414d3146",
+      "subject": "16",
+      "url": "https://osf.io/download/60fe4b460c4cba0107bc8734/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1610,
+      "sha256": "183d81036e26685253bb6acb8b84dd0312418f398671dedd92084475710b5175",
+      "subject": "16"
+    },
+    {
+      "file": "sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "a415f20a7cd17796f5d404ccc4e743c6c9b1ec197d6f3b69bedcca4746a43662",
+      "subject": "16",
+      "url": "https://osf.io/download/60fe4b44c7a97601049dd36d/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-16/ses-04/eeg/sub-16_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27195900,
+      "sha256": "5b6bb34273fc30f8a3c77012aeb85ac43b35bf5dbd8749166d4199dc9981d86d",
+      "subject": "17",
+      "url": "https://osf.io/download/60fe4c73317620010a37f8fb/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1618,
+      "sha256": "829d2d3f5055b9191233f32d627fbbc418ed359f7bdd118f6867484c08be40b1",
+      "subject": "17"
+    },
+    {
+      "file": "sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "1ccae054df2311c86064b9a51dbc18cedce2ffc884357c3093a44d6fd8e6b0c3",
+      "subject": "17",
+      "url": "https://osf.io/download/60fe4c700c4cba0107bc8c92/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-02/eeg/sub-17_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26767200,
+      "sha256": "81d97810ff371413eb5809ddc6b227c6521fb3116e57f68657162edf7397e0ba",
+      "subject": "17",
+      "url": "https://osf.io/download/60fe4bfbc7a97601049dd667/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1624,
+      "sha256": "c9572bda3c5cbb1dadf6a9afe556c66bb73042daf9943d045ea60218d57d8f3f",
+      "subject": "17"
+    },
+    {
+      "file": "sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "66c1111bfd9c668fe82488b5f7987a2810f994e05dc2f8ad314a1da36572e82c",
+      "subject": "17",
+      "url": "https://osf.io/download/60fe4bf8c7a97601039dca86/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-03/eeg/sub-17_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26847200,
+      "sha256": "3f52c2b1b74e1befc90b09a7387c28c26fb91bead0b5a13c024152f2f3d82a39",
+      "subject": "17",
+      "url": "https://osf.io/download/60fe4c280c4cba0107bc8b55/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1622,
+      "sha256": "ef994c088a0f0dfa7f296531a0b3380529dddf5f6bc7fe5c693c507181d0b55e",
+      "subject": "17"
+    },
+    {
+      "file": "sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "c8ec5afcb870c186c8f89556ffaa29d989d2a3dd8fbbefba86444dd77485088c",
+      "subject": "17",
+      "url": "https://osf.io/download/60fe4c250c4cba0107bc8b4b/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-17/ses-04/eeg/sub-17_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 28117200,
+      "sha256": "9e9b66277f5f368b7382fd37e07c7c57104582b533454b662c873b55072b57d3",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4e37c7a97601039dcf73/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1609,
+      "sha256": "032f1ae37c593a7e0453b9784cacc000cfca1ad2346b776d289715ac768ee579",
+      "subject": "18"
+    },
+    {
+      "file": "sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2007,
+      "sha256": "4e946df2d2b430daa57366cfac2f3d062ea5f88abf9c474bd2f917b74b37c175",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4e36317620010a37fc77/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-02/eeg/sub-18_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 27091800,
+      "sha256": "76ad9dd13b59954df2634f78e41b189b6c457881b0280383a3e876f581945b8e",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4e4e317620010a37fcc8/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1608,
+      "sha256": "7612d07ca1056f203cb6acceabd830788bd05750c5cff39fd8ce4a2e345c31fd",
+      "subject": "18"
+    },
+    {
+      "file": "sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "637346a435a5269ffe51650f1a5cb0d44525d062947e736119b673ee4e579bc5",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4e4e0c4cba0107bc929a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-03/eeg/sub-18_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26941400,
+      "sha256": "893688d9f2698961e185872bfe1afb6b14be9cbcdea2c8997ce4c4a1bad4923b",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4de30c4cba0107bc913d/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1607,
+      "sha256": "19bced68a227cc9fc97f3c4e3ad6defa66e2148588c5b8507e3807350daa4cd8",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4de00c4cba0102bc9b8a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "1d48f5ef740a10a48d3564302c5d44603beb9804fabeaa3204ec8d959b6e6d39",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4de0317620010a37fbc4/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-04/eeg/sub-18_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.eeg",
+      "bytes": 29112600,
+      "sha256": "9bac66928ab590cf9d01226386c2cbfe59e0f4ea4a7c48886d3224cba138b796",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4e18317620010a37fc2a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.vhdr",
+      "bytes": 1602,
+      "sha256": "88af7789f80074891761bd4078ade3efd87a6d73e5cbfcc6b070f46e0c3fcd33",
+      "subject": "18"
+    },
+    {
+      "file": "sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.vmrk",
+      "bytes": 2010,
+      "sha256": "c2a18dbaf694b88e4a4c9f0ac85e0e3e43e8a627c31c0cc07e003108640a3c26",
+      "subject": "18",
+      "url": "https://osf.io/download/60fe4e17317620010538041a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-18/ses-05/eeg/sub-18_ses-05_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 32737500,
+      "sha256": "d64031642e57cfc00aad4d4db1987180e50e0478d37b46f2f76f2c7a9674ca01",
+      "subject": "19",
+      "url": "https://osf.io/download/60fe4cfec7a97601049dd9ef/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1599,
+      "sha256": "a8346432a0dafc90ffb719de2aa838e288dbae0dde81b31d68f4c45ecdd7949e",
+      "subject": "19"
+    },
+    {
+      "file": "sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2012,
+      "sha256": "cc94fd48d518a845c3497b625e9851767da5d347eb874f6dd366b75da5b72e55",
+      "subject": "19",
+      "url": "https://osf.io/download/60fe4cfcc7a97601049dd9e7/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-02/eeg/sub-19_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 31032000,
+      "sha256": "c25e1ff9ecc827d74e04b0122312dee2a04285529842932cdbad5fe81ba19dd1",
+      "subject": "19",
+      "url": "https://osf.io/download/60fe4d2bc7a97601049dda98/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1579,
+      "sha256": "5bd8abe634cf062f8a33284e8db0273e1131e11359837040b15bf461f54a56c4",
+      "subject": "19"
+    },
+    {
+      "file": "sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2010,
+      "sha256": "f24c15c6aca459b768186916b4c91d311b6cb0089fe32873ec0330d502fa9851",
+      "subject": "19",
+      "url": "https://osf.io/download/60fe4d2bc7a97600ff9dd54b/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-03/eeg/sub-19_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 28066700,
+      "sha256": "eaf97a36e2466e0d2f9ce9705db71054a7c2a34e14a513b6a054be81440d14e7",
+      "subject": "19",
+      "url": "https://osf.io/download/60fe4cd2317620010b381206/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1588,
+      "sha256": "82099963e6ce8568c4d79355d57ede2629152943fd00d076ca4f619660925d8b",
+      "subject": "19",
+      "url": "https://osf.io/download/60fe4cd10c4cba0106bc76a1/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "cbe8778f028e571b7ece1295c3e2781b7dbbd714428a7c57895dfa50ba89db6a",
+      "subject": "19",
+      "url": "https://osf.io/download/60fe4cd20c4cba0102bc9a65/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-19/ses-04/eeg/sub-19_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27035900,
+      "sha256": "19b96d47160a88a1ececacfadb79ef72d8f3f8b46caebc7f135803974a27126a",
+      "subject": "20",
+      "url": "https://osf.io/download/60fe49970c4cba0102bc9687/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1612,
+      "sha256": "9312c24d4486a6e43b62b347ac294b331aa07db64c453d7c391c13d7f877bf78",
+      "subject": "20"
+    },
+    {
+      "file": "sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "03b1b42e69e36aacd40685072f9f3224b73350002afb8bf2e53d047292441206",
+      "subject": "20",
+      "url": "https://osf.io/download/60fe4995317620010b3805bc/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-02/eeg/sub-20_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 27057400,
+      "sha256": "0280f6d47f468667c42a07434bb711770623c041cb0acc90c1d48c7c7059d627",
+      "subject": "20",
+      "url": "https://osf.io/download/60fe4956317620010b3804f3/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1615,
+      "sha256": "6125b150771e2953c3d6dc8e16676579f60f29f451ca6631f03cfb11b88b28df",
+      "subject": "20"
+    },
+    {
+      "file": "sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "4236fd0a0620262397ce85bf06b0371eb9c480c45bae5d6b77cb9103ec0f79de",
+      "subject": "20",
+      "url": "https://osf.io/download/60fe49550c4cba0107bc80ce/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-03/eeg/sub-20_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26879600,
+      "sha256": "2ec09fe4ba7124fddd16726fff0430dd48985e98cc9711116bcd65c5f7a9fdec",
+      "subject": "20",
+      "url": "https://osf.io/download/60fe493ec7a97601049dcd24/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1597,
+      "sha256": "0de6e02d268ba8075a7764dcd940a7afbf912d4f3bd49f6ebd22bcf5fa67880f",
+      "subject": "20"
+    },
+    {
+      "file": "sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "39e98b7f9cfdafd2411f6bec2086634639337506d8e85bdff449c5bc90a1e239",
+      "subject": "20",
+      "url": "https://osf.io/download/60fe493d0c4cba0106bc6edf/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-20/ses-04/eeg/sub-20_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 27498700,
+      "sha256": "c261d9fc3f36c136e3552100a9d21013f6caed476c8e3cccc47bad89c1cbeee6",
+      "subject": "21",
+      "url": "https://osf.io/download/60fe4831317620010a37efd6/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1623,
+      "sha256": "b559c7ddfdda8a8a95e658e6ac530bff5461a2cdbb86ae1595fa8b5af7cac313",
+      "subject": "21"
+    },
+    {
+      "file": "sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "731cc3fcfd246e711e964933908af22b4cf3e567f8e3178c6c05562fa904fbe9",
+      "subject": "21",
+      "url": "https://osf.io/download/60fe482fc7a97600fe9dc4b0/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-02/eeg/sub-21_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 27291600,
+      "sha256": "0f275711b5cba7666a8c8c0083525ea26fec87d348ecec28a6d111271aec66e8",
+      "subject": "21",
+      "url": "https://osf.io/download/60fe48b0c7a97601039dc374/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1618,
+      "sha256": "d218e9555d51786fee67e999de3018ef3a5031e94d76a43fbafd98a4a5d55ede",
+      "subject": "21",
+      "url": "https://osf.io/download/60fe48adc7a97601039dc36a/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "cc99e1af1dfd01755645ed6bbe735f8422d5f7f5a806fc510ee4d93a7e27d10d",
+      "subject": "21",
+      "url": "https://osf.io/download/60fe48ae317620010b38026e/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-03/eeg/sub-21_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 27103800,
+      "sha256": "693e306dc2f6af50d20fb35a4c83afc4d6c694ae10fe193c3e6f5401aba97be1",
+      "subject": "21",
+      "url": "https://osf.io/download/60fe4882317620010a37f081/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1598,
+      "sha256": "12b089caa86bef6a1a52d6d123a7bf6dd464d81ebe9da70ce66185da98d1608c",
+      "subject": "21"
+    },
+    {
+      "file": "sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "f58eafadb09bdd0e94b7cbcef97f959b17d911e8ac01b1559e927365883ecbd8",
+      "subject": "21",
+      "url": "https://osf.io/download/60fe4880c7a97601039dc326/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-21/ses-04/eeg/sub-21_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 29716300,
+      "sha256": "db07e6b34010cf6cff09f61a02d7cab5b938f07aa5aa0194e6ee3c61d97a8376",
+      "subject": "22",
+      "url": "https://osf.io/download/60fe4ad1317620010a37f533/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1615,
+      "sha256": "7d8555cf3182643caa068e58a59c78a4abcd983c427110c6eec86ba69c697f48",
+      "subject": "22",
+      "url": "https://osf.io/download/60fe4acec7a97601039dc803/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2008,
+      "sha256": "bfa70d96d2a70ffa6d5e23674ae34f64d9f214784b8ea581a6162639b297a0c0",
+      "subject": "22",
+      "url": "https://osf.io/download/60fe4ad10c4cba0106bc71e2/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-02/eeg/sub-22_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 30503000,
+      "sha256": "53a29cbc041177b1bf6ec0205129fa64343f856a3a1344dcb7965f6aaf0b761b",
+      "subject": "22",
+      "url": "https://osf.io/download/60fe4aa60c4cba0107bc84f1/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1604,
+      "sha256": "38ac5f11963554c6648525f4851f9113e3ad523a9947a2809da6be5a8ff44455",
+      "subject": "22"
+    },
+    {
+      "file": "sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "d2f5f384ef97d40ad55c26b830fb0cc521ed68c55aa8be4e9874244633efd664",
+      "subject": "22",
+      "url": "https://osf.io/download/60fe4aa2317620010a37f4e3/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-03/eeg/sub-22_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 32287500,
+      "sha256": "bce2dd3b09709403c6c38061d35d4bdd9029f1eefc6bcca8ac07019096891a32",
+      "subject": "22",
+      "url": "https://osf.io/download/60fe4ae9317620010638216f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1610,
+      "sha256": "d91a5e383f1f11a9892007093e81df634849e9d751f4ad35e70ce64108f2ea8f",
+      "subject": "22",
+      "url": "https://osf.io/download/60fe4ae40c4cba00febc827f/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.vhdr; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2012,
+      "sha256": "2a10beae6b6e5e0aa9daff6db3b09beef01e3a34d3a06cf8e5ceb6f586b5c4d5",
+      "subject": "22",
+      "url": "https://osf.io/download/60fe4ae50c4cba0102bc97c6/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-22/ses-04/eeg/sub-22_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.eeg",
+      "bytes": 29719000,
+      "sha256": "5643732f837226683ea21b764c3474990f6d6c06225e7854c1f27218a7386f80",
+      "subject": "23",
+      "url": "https://osf.io/download/60fe4d71c7a97601049ddb2b/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vhdr",
+      "bytes": 1600,
+      "sha256": "c9dfac9989fce71264e06ba7490647cb397792f3bd538812de8f3433138721e7",
+      "subject": "23"
+    },
+    {
+      "file": "sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vmrk",
+      "bytes": 2011,
+      "sha256": "f4daa90c08bb08dd65f23f73dc407361dd5b39854866d26e2e50cf0612551596",
+      "subject": "23",
+      "url": "https://osf.io/download/60fe4d6ec7a97601039dcdd9/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-02/eeg/sub-23_ses-02_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.eeg",
+      "bytes": 26852400,
+      "sha256": "149f76dbab0b7e871981b679e8b209df49dafbe804df9919de181b516a225540",
+      "subject": "23",
+      "url": "https://osf.io/download/60fe4db00c4cba0107bc9076/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vhdr",
+      "bytes": 1584,
+      "sha256": "fcee6f4addb1474a96b292a0272af4427a5162d7111c4d36a6f30af15600b26e",
+      "subject": "23"
+    },
+    {
+      "file": "sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vmrk",
+      "bytes": 2005,
+      "sha256": "92d866f62f8adf80aed2fd1053ec07ea80de444d48c92f658c63dd8b79f7d4c0",
+      "subject": "23",
+      "url": "https://osf.io/download/60fe4dadc7a97601049ddbf6/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-03/eeg/sub-23_ses-03_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.eeg",
+      "bytes": 26989800,
+      "sha256": "0ac035f7c7ac797ba2f349c2c8307171e8eea402987fb35cfd5a98b680b50145",
+      "subject": "23",
+      "url": "https://osf.io/download/60fe4d450c4cba0106bc7798/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.eeg; size, MD5 and SHA-256 = OSF API"
+    },
+    {
+      "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vhdr",
+      "bytes": 1596,
+      "sha256": "b08de02631027465dfcf75d168ca09f64e893afd28f7e522ef89908f64d423cf",
+      "subject": "23"
+    },
+    {
+      "file": "sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vmrk",
+      "bytes": 2004,
+      "sha256": "8f98fc090c9466fbf056ea5c1bc2316a573c8d2103b7ac2ed7dab7dce3c21416",
+      "subject": "23",
+      "url": "https://osf.io/download/60fe4d400c4cba0107bc8f0b/",
+      "how": "OSF project r7s9b (doi:10.17605/OSF.IO/R7S9B), /sourcedata/sub-23/ses-04/eeg/sub-23_ses-04_task-SSVEP_eeg.vmrk; size, MD5 and SHA-256 = OSF API"
     }
-   ]
-  }
- ]
+  ],
+  "n_subjects_recorded": 23,
+  "revisions": [
+    {
+      "date": "2026-10-19",
+      "version": "1.0.3",
+      "added_files": 189,
+      "added_bytes": 2400707150,
+      "note": "OSF r7s9b /sourcedata/ round: added 189 files (2,400,707,150 B); replaced 4 sub-07 files (73 ch / 100 Hz copy -> 50 ch / 500 Hz originals); size, MD5 and SHA-256 = OSF API; headers 50 ch, SamplingInterval 2000 us. Still absent: sub-16 ses-05, sub-17 ses-05, sub-19 ses-05, sub-20 ses-05, sub-21 ses-05, sub-22 ses-05, sub-23 ses-05.",
+      "replaced_files": 4,
+      "replaced": [
+        {
+          "file": "sub-07/ses-02/eeg/sub-07_ses-02_task-SSVEP_eeg.vhdr",
+          "old_bytes": 2316,
+          "old_sha256": "a436c9eeb2950eb7eda73dbabbfa1d0ed044c05de13506e2383189eb3666cf9e",
+          "new_bytes": 1593,
+          "new_sha256": "1e571d4a4d6f8036e5777af0dac0f391d2af0af99dccdb6cbe39819e98742520"
+        },
+        {
+          "file": "sub-07/ses-03/eeg/sub-07_ses-03_task-SSVEP_eeg.vhdr",
+          "old_bytes": 2330,
+          "old_sha256": "7a8e51282aae95f2da8d84fb9345f2fe9aacfe6259bae5d51fee835d3f3fa3eb",
+          "new_bytes": 1601,
+          "new_sha256": "784ecd43a85945b8b068de6c6f497535f1fadae2dc27aa2a39c34a0a248d21ce"
+        },
+        {
+          "file": "sub-07/ses-04/eeg/sub-07_ses-04_task-SSVEP_eeg.vhdr",
+          "old_bytes": 2333,
+          "old_sha256": "25e84d5311fa12f26e1d61720213299ef8a368341a5d9fec8160df9f98635cc4",
+          "new_bytes": 1585,
+          "new_sha256": "01e0d11d900214ff165884cd24d2679d56eb536984b331c24765202d6bbab901"
+        },
+        {
+          "file": "sub-07/ses-05/eeg/sub-07_ses-05_task-SSVEP_eeg.vhdr",
+          "old_bytes": 2321,
+          "old_sha256": "aba2050093d160b7e0af71b14c86095151bca4ae25e49af4861eb725f3283017",
+          "new_bytes": 1593,
+          "new_sha256": "1836e2b4e68ced2ea875dc90fa024ec25ee307cda62355b9360a0ac91a436bb9"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "by": "osf-day-20261019",
+      "change": "merged fix-20261017 (8919c9a, SSVEP BrainVision files) with the OSF-day staged round bf5da39; provenance union, staged entry wins on duplicates"
+    }
+  ]
 }
